@@ -46,7 +46,7 @@ import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
 export default function Page() {
   const [navbar, setNavbar] = useState(false);
   
- 
+  if(typeof document !== 'undefined') {
   return (
     <div className='bg-black'>
       <Head>
@@ -478,3 +478,4 @@ ACHIEVEMENTS <span className='text-gray-500'> ⸻ </span>
 
 }
  
+}
