@@ -1,2 +1,4 @@
-module.exports = {}
-{ webpack4: true }
+/** @type {import('next').NextConfig} */
+const nextConfig = {}
+
+module.exports = nextConfig
