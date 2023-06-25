@@ -393,7 +393,7 @@ ACHIEVEMENTS <span className='text-gray-500'> ⸻ </span>
       height={100}
       alt="HTML Icon"
     />
- <div data-aos="fade-up" data-aos-duration="1000">
+ <div data-aos="fade-up" data-aos-duration="2000">
       <h1 className=" text-4xl text-gray-200 font-bold">
       FasTrack: Ormoc's One Stop Shop
       </h1>
