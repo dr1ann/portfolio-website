@@ -46,15 +46,12 @@ import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
 export default function Page() {
   const [navbar, setNavbar] = useState(false);
   
-  if(typeof document !== 'undefined') {
+
   return (
     <div className='bg-black'>
       <Head>
         <title>Create Next Responsive Navbar With Tailwind CSS</title>
-        <meta
-          name="description"
-          content="Create Next JS Responsive Menu with Tailwind CSS"
-        />
+      
         
       </Head>
       <nav className="w-full bg-black">
@@ -478,4 +475,3 @@ ACHIEVEMENTS <span className='text-gray-500'> ⸻ </span>
 
 }
  
-}
