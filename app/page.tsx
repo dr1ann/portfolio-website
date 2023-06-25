@@ -404,7 +404,7 @@ ACHIEVEMENTS <span className='text-gray-500'> ⸻ </span>
       </p>
       
       <div className="flex items-center justify-center">
-  <a href="https://fastrack-e-commerce.netlify.app/" data-aos="fade-up" data-aos-duration="1000" target="_blank" rel="noopener noreferrer" className="text-white text-xl bg-gray-500 animate-custom-bounce  rounded-2xl px-2 py-2 font-bold" >VISIT WEBSITE <FontAwesomeIcon icon={faEye} />
+  <a href="https://dr1ann.github.io/fastrack-e-commerce/" data-aos="fade-up" data-aos-duration="1000" target="_blank" rel="noopener noreferrer" className="text-white text-xl bg-gray-500 animate-custom-bounce  rounded-2xl px-2 py-2 font-bold" >VISIT WEBSITE <FontAwesomeIcon icon={faEye} />
 </a >
 </div>
 
