@@ -1,13 +1,7 @@
 'use client'
 import Head from 'next/head';
 import { Link as ScrollLink, animateScroll as scroll } from 'react-scroll';
-import Link from 'next/link';
-
-
-
-
-
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import Image from 'next/image';
 import profilePic from './Images/newdp.png'
 import headerImg from './Images/name.png'
@@ -29,12 +23,6 @@ import Typewriter from 'typewriter-effect';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
-AOS.init();
-// import AOS from 'aos';
-// import  'aos/dist/aos.css'; // You can also use <link> for styles
-// // ..
-// AOS.init();
-
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebook, faInstagram, faGithub  } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
@@ -45,7 +33,9 @@ import { faMousePointer } from '@fortawesome/free-solid-svg-icons';
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
 export default function Page() {
   const [navbar, setNavbar] = useState(false);
-  
+  useEffect(() => {
+    AOS.init();
+  }, []);
 
   return (
     <div className='bg-black'>
