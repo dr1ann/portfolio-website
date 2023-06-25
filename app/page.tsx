@@ -329,7 +329,7 @@ ACHIEVEMENTS <span className='text-gray-500'> ⸻ </span>
     <Image
    
       className="object-cover h-full w-full rounded-2xl z-10 transform transition duration-500 hover:scale-125 "
-      src={bplanDoc}
+      src={bplanCert}
       alt="Image 1"
     />
   </div>
