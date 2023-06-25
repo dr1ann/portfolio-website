@@ -1,2 +1,2 @@
 module.exports = {}
-{ webpack5: true }
+{ webpack4: true }
