@@ -211,7 +211,7 @@ export default function Page() {
   </div>
 </div>
 <h1 className="text-center mt-4 text-4xl font-bold text-white animate-pulse" data-aos="fade-up" data-aos-duration="1000">
-      TEST  <span className='text-gray-500'>ME</span>
+      ABOUT  <span className='text-gray-500'>ME</span>
     </h1>
 <div>
 <div className="bg-black " >
