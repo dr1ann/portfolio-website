@@ -368,7 +368,7 @@ ACHIEVEMENTS <span className='text-gray-500'> ⸻ </span>
   
   {/* 2nd ACHIEVEMENT */}
 
-  <h1 className="text-center mt-32 text-4xl font-bold text-white animate-pulse " data-aos="fade-up" data-aos-duration="1000" id='projectsPage'>
+  <h1 className="text-center mt-32 text-4xl font-bold text-white animate-pulse mb-20" data-aos="fade-up" data-aos-duration="1000" id='projectsPage'>
      PROJECTS
     </h1>
 
@@ -402,10 +402,14 @@ ACHIEVEMENTS <span className='text-gray-500'> ⸻ </span>
       <p className="text-white mt-2 text-justify mb-5">
       FasTrack is a dynamic and user-friendly online e-commerce platform designed exclusively for residents of Ormoc City. Developed over a span of 7 months, this feature-rich website incorporates a robust backend powered by <b>Node.js</b> and utilizes <b>Firebase</b> for seamless database integration.
       </p>
-      
-      <div className="flex items-center justify-center">
-  <a href="https://dr1ann.github.io/fastrack-e-commerce/" data-aos="fade-up" data-aos-duration="1000" target="_blank" rel="noopener noreferrer" className="text-white text-xl bg-gray-500 animate-custom-bounce  rounded-2xl px-2 py-2 font-bold" >VISIT WEBSITE <FontAwesomeIcon icon={faEye} />
+     
+      <div className="flex items-center justify-start">
+     
+  <a href="https://dr1ann.github.io/fastrack-e-commerce/" data-aos="fade-up" data-aos-duration="1000" target="_blank" rel="noopener noreferrer" className="text-white text-xl bg-gray-500 animate-custom-bounce  rounded-2xl px-2 py-2 font-bold" >VISIT PROJECT <FontAwesomeIcon icon={faEye} />
 </a >
+ <a href="https://github.com/dr1ann/fastrack-e-commerce" target="_blank" rel="noopener noreferrer" className="icon-link"  data-aos="fade-up" data-aos-duration="1000">
+    <FontAwesomeIcon icon={faGithub} className="text-black m-2 inline-block text-3xl animate-custom-bounce bg-gray-500  rounded-full p-2 ml-4" />
+    </a>
 </div>
 
     </div>
