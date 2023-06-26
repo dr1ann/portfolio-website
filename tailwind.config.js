@@ -41,7 +41,14 @@ module.exports = {
         'forghIcon': '1.75rem',
         
         '10xl': '9.35rem',
-       }
+       },
+       screens: {
+        sm: '640px',
+        md: '768px',
+        lg: '1024px', // Customize the 'lg' breakpoint to your desired value
+        xl: '1280px',
+        '2xl': '1536px',
+      }
       
     },
     

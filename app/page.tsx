@@ -105,7 +105,7 @@ export default function Page() {
                 navbar ? 'block' : 'hidden'
               }`}
             >
-              <ul className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0">
+              <ul className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0 lg:mr-12 ">
                 <li className="text-white text-center">
                 <ScrollLink
   to="yawa"
@@ -161,25 +161,25 @@ export default function Page() {
         </div>
       </nav>
       </Headroom>
-      <div className="h-screen w-screen flex justify-between items-center" id='yawa'>
+      <div className="h-screen w-screen flex justify-between items-center" >
   <Image
-    className="float-left mb-20 "
+    className="float-left mb-20 hidden sm:block sm:w-2/4 lg:w-2/5 lg:ml-8 "
     
     src={profilePic}
-    width={600}
-    height={400}
+   
     alt="Picture of the author"
   />
    
-  <div style={{ color: 'white', fontSize: '3em', marginTop: '-20vh', marginRight: '20vh', width: '400px'   }}  data-aos="fade-up" data-aos-duration="1000">
+  <div style={{ color: 'white', fontSize: '3em', marginTop: '-20vh', marginRight: '20vh', width: '400px'   }} className='text-center ml-auto sm:text-left ' data-aos="fade-up" data-aos-duration="1000">
     <span className="text-2xl">Hello there, I am</span>
     <Typewriter
       options={{
         strings: ['<span style="font-weight: bold; color: #EDF2F7;">James Adrian</span>'],
+       
         autoStart: true,
         loop: true,
         wrapperClassName: 'typewriter-wrapper', // Add a custom class name for styling
-        cursorClassName: 'typewriter-cursor' // Add a custom class name for styling the cursor
+        cursorClassName: 'typewriter-cursor ' // Add a custom class name for styling the cursor
       }}
       onInit={(typewriter) => {
         typewriter
@@ -194,25 +194,25 @@ export default function Page() {
           .start();
       }}
     />
-    <p className="text-left text-2xl mt-4 text-white mb-5" data-aos="fade-up" data-aos-duration="1000">
+    <p className=" text-2xl mt-4 text-white mb-5 sm:text-xl md:text-2xl" data-aos="fade-up" data-aos-duration="1000">
       Aspiring  <span className='text-gray-200 animate-pulse font-bold'>Software Developer</span>
     </p> 
-    
-    <a href="https://web.facebook.com/jamesdenoy12/" target="_blank" rel="noopener noreferrer" className="icon-link" data-aos="fade-up" data-aos-duration="1000">
+   
+    <a href="https://web.facebook.com/jamesdenoy12/" target="_blank" rel="noopener noreferrer" className="icon-link" >
   <FontAwesomeIcon icon={faFacebook} className="text-black m-2 text-3xl animate-custom-bounce bg-gray-500 rounded-full p-2 "  />
 </a>
 
-    <a href="https://www.instagram.com/dr1annnnnnn/" target="_blank" rel="noopener noreferrer" className="icon-link"  data-aos="fade-up" data-aos-duration="1000">
+    <a href="https://www.instagram.com/dr1annnnnnn/" target="_blank" rel="noopener noreferrer" className="icon-link" >
     <FontAwesomeIcon icon={faInstagram} className="text-black m-2  text-3xl animate-custom-bounce  bg-gray-500  rounded-full p-2" />
     </a>
-    <a href="https://github.com/dr1ann" target="_blank" rel="noopener noreferrer" className="icon-link"  data-aos="fade-up" data-aos-duration="1000">
+    <a href="https://github.com/dr1ann" target="_blank" rel="noopener noreferrer" className="icon-link"  >
     <FontAwesomeIcon icon={faGithub} className="text-black m-2 text-3xl animate-custom-bounce bg-gray-500  rounded-full p-2" />
     </a>
-    <a href="mailto:jamesdenoy56@gmail.com" target="_blank" rel="noopener noreferrer" className="icon-link"  data-aos="fade-up" data-aos-duration="1000">
+    <a href="mailto:jamesdenoy56@gmail.com" target="_blank" rel="noopener noreferrer" className="icon-link"  >
     <FontAwesomeIcon icon={faEnvelope} className="text-black  text-forghIcon animate-custom-bounce  m-2 bg-gray-500 rounded-full p-2" />
 
     </a>
-
+  
   </div>
 </div>
 <h1 className="text-center mt-4 mb-10 text-4xl font-bold  text-white animate-pulse" data-aos="fade-up" data-aos-duration="1000" id='aboutPage'>
@@ -398,6 +398,9 @@ ACHIEVEMENTS <span className='text-gray-500'> ⸻ </span>
       </p>
       <p className="text-white text-lg font-500 rounded-full bg-gray-500 px-2 mt-5">
       Javascript
+      </p>
+      <p className="text-white text-lg font-500 rounded-full bg-gray-500 px-2 mt-5">
+      Node.js
       </p>
       <p className="text-white text-lg font-500 rounded-full bg-gray-500 px-2 mt-5">
       Firebase
