@@ -435,7 +435,7 @@ ACHIEVEMENTS <span className='text-gray-500'> ⸻ </span>
   <a href="mailto:jamesdenoy56@gmail.com">
     <div className="flex items-center flex-col mb-2 shadow-3xl hover:animate-pulse shadow-gray-500 bg-gray-500 rounded-2xl p-2">
       <FontAwesomeIcon icon={faEnvelope} className="text-black m-2 text-10xl bg-gray-500 rounded-full p-2"  />
-      <span className="text-white w-9/12 text-center">Get in touch via email</span>
+      <span className="text-white w-9/12 text-center">Get in touch via Email</span>
      
     </div>
   </a>
