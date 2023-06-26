@@ -51,7 +51,7 @@ export default function Page() {
       <nav className="w-full bg-black">
         <div className="justify-between  z-30 px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
           <div>
-            <div className="flex items-center justify-between py-3 md:py-5 md:block" >
+            <div className="flex items-center justify-between   md:block" >
               <div className='flex flex-row'>
             <Image
       src={headerImg}
@@ -106,7 +106,7 @@ export default function Page() {
               }`}
             >
               <ul className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0">
-                <li className="text-white">
+                <li className="text-white text-center">
                 <ScrollLink
   to="yawa"
   smooth={true}
@@ -117,7 +117,7 @@ export default function Page() {
   <a>Home</a>
 </ScrollLink>
                 </li>
-                <li className="text-white">
+                <li className="text-white text-center ">
                 <ScrollLink
   to="aboutPage"
   smooth={true}
@@ -130,7 +130,7 @@ export default function Page() {
 </ScrollLink>
 
                 </li>
-                <li className="text-white">
+                <li className="text-white text-center">
                 <ScrollLink
   to="projectsPage"
   smooth={true}
@@ -143,7 +143,7 @@ export default function Page() {
 </ScrollLink>
 
                 </li>
-                <li className="text-white">
+                <li className="text-white text-center">
                 <ScrollLink
   to="contactPage"
   smooth={true}
