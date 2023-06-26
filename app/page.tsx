@@ -215,12 +215,12 @@ export default function Page() {
 
   </div>
 </div>
-<h1 className="text-center mt-4 mb-10 text-4xl font-bold text-white animate-pulse" data-aos="fade-up" data-aos-duration="1000">
-<span className='text-gray-500'> ⸻ </span>ABOUT ME<span className='text-gray-500'> ⸻ </span>
+<h1 className="text-center mt-4 mb-10 text-4xl font-bold  text-white animate-pulse" data-aos="fade-up" data-aos-duration="1000" id='aboutPage'>
+<span className='text-gray-500' > ⸻ </span>ABOUT ME<span className='text-gray-500'> ⸻ </span>
     </h1>
 <div>
 <div className="bg-black " >
-<div className="flex items-center justify-center" id='aboutPage'>
+<div className="flex items-center justify-center" >
    <div data-aos="fade-up" data-aos-duration="1000">
     <Image 
 
