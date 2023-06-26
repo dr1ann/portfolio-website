@@ -209,14 +209,14 @@ export default function Page() {
     <FontAwesomeIcon icon={faGithub} className="text-black m-2 text-3xl animate-custom-bounce bg-gray-500  rounded-full p-2" />
     </a>
     <a href="mailto:jamesdenoy56@gmail.com" target="_blank" rel="noopener noreferrer" className="icon-link"  data-aos="fade-up" data-aos-duration="1000">
-    <FontAwesomeIcon icon={faEnvelope} className="text-black  text-3xl animate-custom-bounce  m-2 bg-gray-500 rounded-full p-2" />
+    <FontAwesomeIcon icon={faEnvelope} className="text-black  text-forghIcon animate-custom-bounce  m-2 bg-gray-500 rounded-full p-2" />
 
     </a>
 
   </div>
 </div>
 <h1 className="text-center mt-4 mb-10 text-4xl font-bold text-white animate-pulse" data-aos="fade-up" data-aos-duration="1000">
-      ABOUT  <span className='text-gray-500'>ME</span>
+<span className='text-gray-500'> ⸻ </span>ABOUT ME<span className='text-gray-500'> ⸻ </span>
     </h1>
 <div>
 <div className="bg-black " >
@@ -272,7 +272,7 @@ As an aspiring software developer, I am driven by my passion for creating innova
       7 months of experience
       </p>
       <p className="text-white mt-2 text-justify">
-        I have a strong grasp of CSS styling and layout techniques. <br />  In addition, I am actively expanding my skill set by learning <br /> and implementing the popular CSS framework, "Tailwind CSS."
+        I have a strong grasp of CSS styling and layout techniques. <br />  In addition, I am actively expanding my skill set by learning <br /> and implementing the popular CSS framework,  <b>Tailwind CSS</b>.
       </p>
     </div>
     <div data-aos="fade-up" data-aos-duration="1000">
@@ -303,7 +303,7 @@ As an aspiring software developer, I am driven by my passion for creating innova
       6 months of experience
       </p>
       <p className="text-white mt-2 text-justify w-2/4">
-      I have hands-on experience in developing a large-scale e-commerce project using JavaScript, and I used Node.js for its backend development. Currently, I am further expanding my skills and exploring the possibilities of Next.js to enhance my web development expertise.
+      I have hands-on experience in developing a large-scale e-commerce project using JavaScript, and I used <b>Node.js</b> for its backend development. Currently, I am further expanding my skills and exploring the possibilities of <b>Next.js</b> and <b>TypeScript</b> to enhance my web development expertise.
       </p>
      
     </div>
@@ -373,8 +373,8 @@ ACHIEVEMENTS <span className='text-gray-500'> ⸻ </span>
   
   {/* 2nd ACHIEVEMENT */}
 
-  <h1 className="text-center mt-32 text-4xl font-bold text-white animate-pulse mb-20" data-aos="fade-up" data-aos-duration="1000" id='projectsPage'>
-     PROJECTS
+  <h1 className="text-center mt-32 text-4xl font-bold text-white animate-pulse mb-10" data-aos="fade-up" data-aos-duration="1000" id='projectsPage'>
+  <span className='text-gray-500'> ⸻ </span>PROJECTS<span className='text-gray-500'> ⸻ </span>
     </h1>
 
 <div className="flex items-center" data-aos="fade-up" data-aos-duration="1000"  >
@@ -427,8 +427,8 @@ ACHIEVEMENTS <span className='text-gray-500'> ⸻ </span>
 
 </div>
     {/* end of the about me section  */}
-    <h1 className="text-center mt-32 text-4xl font-bold text-white animate-pulse" data-aos="fade-up" data-aos-duration="1000">
-      CONTACT  <span className='text-gray-500'  id='contactPage'>ME</span>
+    <h1 className="text-center mt-32 text-4xl font-bold mb-14 text-white animate-pulse" data-aos="fade-up" data-aos-duration="1000" id='contactPage'>
+    <span className='text-gray-500'> ⸻ </span>CONTACT<span className='text-gray-500'> ⸻ </span>
       </h1>
       <div className="flex flex-row justify-center mt-8 animate-custom-bounce" data-aos="fade-up" data-aos-duration="1000">
       <div className="w-64 h-64 mx-4 mb-8">

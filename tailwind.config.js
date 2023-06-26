@@ -38,7 +38,8 @@ module.exports = {
         none: 'none',
       },
       fontSize: {
-       
+        'forghIcon': '1.75rem',
+        
         '10xl': '9.35rem',
        }
       
