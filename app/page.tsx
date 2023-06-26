@@ -18,6 +18,7 @@ import fbIcon from './Images/facebookIcon-removebg-preview.png'
 import emailIcon from './Images/emailIcon.png'
 import IgIcon from './Images/facebookIcon-removebg-preview.png'
 import cursor from './Images/cursor.png'
+import aboutImg from './Images/aboutimg.jpeg'
 import projThumbnail from './Images/thumbnail.png'
 import Typewriter from 'typewriter-effect';
 import AOS from 'aos';
@@ -31,6 +32,8 @@ import { faAngleRight } from '@fortawesome/free-solid-svg-icons';
 import { faHandPointRight } from '@fortawesome/free-solid-svg-icons';
 import { faMousePointer } from '@fortawesome/free-solid-svg-icons';
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
+import Headroom from 'react-headroom';
+
 export default function Page() {
   const [navbar, setNavbar] = useState(false);
   useEffect(() => {
@@ -44,8 +47,9 @@ export default function Page() {
       
         
       </Head>
+      <Headroom>
       <nav className="w-full bg-black">
-        <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
+        <div className="justify-between  z-30 px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
           <div>
             <div className="flex items-center justify-between py-3 md:py-5 md:block" >
               <div className='flex flex-row'>
@@ -97,7 +101,7 @@ export default function Page() {
           </div>
           <div>
             <div
-              className={`flex-1 justify-self-center pb-3 mt-8 md:block md:pb-0 md:mt-0 ${
+              className={`flex-1 justify-self-center header-hover  pb-3 mt-8 md:block md:pb-0 md:mt-0 ${
                 navbar ? 'block' : 'hidden'
               }`}
             >
@@ -145,7 +149,7 @@ export default function Page() {
   smooth={true}
   duration={500}
   offset={-100}
-  className="cursor-pointer"
+  className="cursor-pointer animate-wiggle"
 >
   
   <a>Contact</a>
@@ -156,9 +160,10 @@ export default function Page() {
           </div>
         </div>
       </nav>
+      </Headroom>
       <div className="h-screen w-screen flex justify-between items-center" id='yawa'>
   <Image
-    className="float-left mb-20"
+    className="float-left mb-20 "
     
     src={profilePic}
     width={600}
@@ -194,23 +199,23 @@ export default function Page() {
     </p> 
     
     <a href="https://web.facebook.com/jamesdenoy12/" target="_blank" rel="noopener noreferrer" className="icon-link" data-aos="fade-up" data-aos-duration="1000">
-  <FontAwesomeIcon icon={faFacebook} className="text-black m-2 text-3xl animate-custom-bounce bg-gray-500 rounded-full p-2"  />
+  <FontAwesomeIcon icon={faFacebook} className="text-black m-2 text-3xl animate-custom-bounce bg-gray-500 rounded-full p-2 "  />
 </a>
 
     <a href="https://www.instagram.com/dr1annnnnnn/" target="_blank" rel="noopener noreferrer" className="icon-link"  data-aos="fade-up" data-aos-duration="1000">
-    <FontAwesomeIcon icon={faInstagram} className="text-black m-2 text-3xl animate-custom-bounce  bg-gray-500  rounded-full p-2" />
+    <FontAwesomeIcon icon={faInstagram} className="text-black m-2  text-3xl animate-custom-bounce  bg-gray-500  rounded-full p-2" />
     </a>
     <a href="https://github.com/dr1ann" target="_blank" rel="noopener noreferrer" className="icon-link"  data-aos="fade-up" data-aos-duration="1000">
     <FontAwesomeIcon icon={faGithub} className="text-black m-2 text-3xl animate-custom-bounce bg-gray-500  rounded-full p-2" />
     </a>
     <a href="mailto:jamesdenoy56@gmail.com" target="_blank" rel="noopener noreferrer" className="icon-link"  data-aos="fade-up" data-aos-duration="1000">
-    <FontAwesomeIcon icon={faEnvelope} className="text-black  text-3xl animate-custom-bounce m-2 bg-gray-500 rounded-full p-2" />
+    <FontAwesomeIcon icon={faEnvelope} className="text-black  text-3xl animate-custom-bounce  m-2 bg-gray-500 rounded-full p-2" />
 
     </a>
 
   </div>
 </div>
-<h1 className="text-center mt-4 text-4xl font-bold text-white animate-pulse" data-aos="fade-up" data-aos-duration="1000">
+<h1 className="text-center mt-4 mb-10 text-4xl font-bold text-white animate-pulse" data-aos="fade-up" data-aos-duration="1000">
       ABOUT  <span className='text-gray-500'>ME</span>
     </h1>
 <div>
@@ -219,10 +224,10 @@ export default function Page() {
    <div data-aos="fade-up" data-aos-duration="1000">
     <Image 
 
-      className="rounded-full border-gray-500 border-4 border-solid ml-20 "  
-      src={aboutFace}
-      width={300}
-      height={100}
+      className=" ml-20 border-gray-500 border-4 border-solid p-2 rounded-xl transform transition duration-500 hover:scale-125"  
+      src={aboutImg}
+      width={450}
+      height={200}
       alt="Picture of the author"
     />
     </div>
@@ -315,7 +320,7 @@ ACHIEVEMENTS <span className='text-gray-500'> ⸻ </span>
     data-aos-duration="1000">
     <Image
    
-      className="object-cover h-full w-full rounded-2xl z-10 transform transition duration-500 hover:scale-125 "
+      className="object-cover h-full w-full z-10 border-gray-500 border-4 border-solid p-2 rounded-xl transform transition duration-500 hover:scale-125"
       src={bplanCert}
       alt="Image 1"
     />
@@ -324,7 +329,7 @@ ACHIEVEMENTS <span className='text-gray-500'> ⸻ </span>
   data-aos-duration="1000">
   <Image
 
-  className="object-cover  h-full w-full rounded-2xl z-10 transition-transform duration-500 hover:scale-125 "
+  className="object-cover  h-full w-full border-gray-500 border-4 border-solid p-2 rounded-xl transform transition duration-500 hover:scale-125 "
   src={bplanDoc}
   alt="Image 2"
 />
@@ -345,7 +350,7 @@ ACHIEVEMENTS <span className='text-gray-500'> ⸻ </span>
   <div className="relative h-50 hover:z-20"  data-aos="fade-up" 
     data-aos-duration="1000">
     <Image
-      className="object-cover  h-full w-full rounded-2xl z-10 transform transition duration-500 hover:scale-125 "
+      className="object-cover  h-full w-full z-10 border-gray-500 border-4 border-solid p-2 rounded-xl transform transition duration-500 hover:scale-125"
       src={codefestDoc}
       alt="Image 1"
     />
@@ -353,7 +358,7 @@ ACHIEVEMENTS <span className='text-gray-500'> ⸻ </span>
   <div className="relative h-50"  data-aos="fade-up" 
     data-aos-duration="1000">
     <Image
-      className="object-cover h-full w-full rounded-2xl z-10 transform transition duration-500 hover:scale-125 "
+      className="object-cover h-full w-full  z-10 border-gray-500 border-4 border-solid p-2 rounded-xl transform transition duration-500 hover:scale-125"
       src={codefestCert}
       alt="Image 2"
     />

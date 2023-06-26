@@ -9,9 +9,11 @@ module.exports = {
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic': 'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+        
       },
       animation: {
         'fade-up': 'fade-up 0.5s ease-out',
+        
       },
       keyframes: {
         'fade-up': {
@@ -20,7 +22,8 @@ module.exports = {
         },
         zIndex: {
           '100': '100',
-        }
+        },
+        
         
       },
       boxShadow: {
