@@ -45,11 +45,12 @@ export default function Page() {
       <Head>
         <title>Create Next Responsive Navbar With Tailwind CSS</title>
       
+
         
       </Head>
       <Headroom>
       <nav className="w-full bg-black">
-        <div className="justify-between  z-30 px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
+        <div className="justify-between  z-30 px-4 md:items-center md:flex md:px-8  ">
           <div>
             <div className="flex items-center justify-between   md:block" >
               <div className='flex flex-row'>
@@ -58,6 +59,7 @@ export default function Page() {
       width={80}
       height={60}
       alt="Picture of the author"
+     
     />
     
     </div>
@@ -170,7 +172,7 @@ export default function Page() {
     alt="Picture of the author"
   />
    
-  <div style={{ color: 'white', fontSize: '3em', marginTop: '-20vh', marginRight: '20vh', width: '400px'   }} className='text-center ml-auto sm:text-left ' data-aos="fade-up" data-aos-duration="1000">
+  <div style={{ color: 'white', fontSize: '3em', marginTop: '-20vh', width: '400px'   }} className='text-center mx-auto sm:text-left xl:mr-1stcustom  ' data-aos="fade-up" data-aos-duration="1000">
     <span className="text-2xl">Hello there, I am</span>
     <Typewriter
       options={{
@@ -377,7 +379,7 @@ ACHIEVEMENTS <span className='text-gray-500'> ⸻ </span>
   <span className='text-gray-500'> ⸻ </span>PROJECTS<span className='text-gray-500'> ⸻ </span>
     </h1>
 
-<div className="flex items-center" data-aos="fade-up" data-aos-duration="1000"  >
+<div className="flex items-center" data-aos="fade-up" data-aos-duration="1000" >
    <Image    
       className="mt-10 transform transition duration-500 hover:scale-125 "  
       src={projThumbnail}
@@ -385,8 +387,8 @@ ACHIEVEMENTS <span className='text-gray-500'> ⸻ </span>
       height={100}
       alt="HTML Icon"
     />
- <div data-aos="fade-up" data-aos-duration="2000">
-      <h1 className=" text-4xl text-gray-200 font-bold">
+ <div data-aos="fade-up" data-aos-duration="2000 ">
+      <h1 className=" text-4xl text-gray-200 font-bold ">
       FasTrack: Ormoc's One Stop Shop
       </h1>
       <div className='flex flex-row gap-3 '>

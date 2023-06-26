@@ -43,11 +43,12 @@ module.exports = {
         '10xl': '9.35rem',
        },
        screens: {
-        sm: '640px',
-        md: '768px',
-        lg: '1024px', // Customize the 'lg' breakpoint to your desired value
-        xl: '1280px',
-        '2xl': '1536px',
+      
+        bigsize: '1457px'
+      },
+      spacing: {
+        '1stcustom': '10vh',
+        '2ndcustom': '20vh', // Add your custom margin-right value here
       }
       
     },
