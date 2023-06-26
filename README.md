@@ -1,7 +1,7 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 ## My Portfolio Website
 
-Welcome to my portfolio website! You can visit the website at (https://dr1ann.github.io/portfolio-website/).
+Welcome to my portfolio website! You can visit the website at (https://dr1ann.github.io/portfolio-website/)/(https://portfolio-website-git-main-dr1ann.vercel.app/).
 
 or if you want it to run locally follow these steps:
 
