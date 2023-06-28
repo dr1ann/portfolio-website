@@ -50,7 +50,7 @@ module.exports = {
         semiLg: '945px',
         aftermd:'824px',
         semixl: '1180px',
-        homepagescreen:'1240px'
+        homepagescreen:'2000px'
       },
       spacing: {
         '1stcustom': '10vh',

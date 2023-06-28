@@ -174,7 +174,7 @@ export default function Page() {
   />
    
   <div style={{ color: 'white', fontSize: '3em', marginTop: '-20vh', width: '400px'   }} className='text-center mx-auto sm:text-left xl:mr-auto  ' data-aos="fade-up" data-aos-duration="1000">
-    <span className="text-2xl">Hello there, I am</span>
+    <span className="text-2xl homepagescreen:text-[2rem]">Hello there, I am</span>
     <Typewriter
       options={{
         strings: ['<span style="font-weight: bold; color: #EDF2F7;">James Adrian</span>'],
@@ -197,7 +197,7 @@ export default function Page() {
           .start();
       }}
     />
-    <p className=" text-2xl mt-4 text-white mb-5 sm:text-xl md:text-2xl" data-aos="fade-up" data-aos-duration="1000">
+    <p className=" text-2xl mt-4 text-white mb-5 sm:text-xl md:text-2xl homepagescreen:text-[1.75rem]" data-aos="fade-up" data-aos-duration="1000">
       Aspiring  <span className='text-gray-200 animate-pulse font-bold'>Software Developer</span>
     </p> 
    
