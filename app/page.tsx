@@ -49,7 +49,7 @@ export default function Page() {
         
       </Head>
       <Headroom>
-      <nav className="w-full bg-black">
+      <nav className="w-full ">
         <div className="justify-between  z-30 px-4 md:items-center md:flex md:px-8  ">
           <div>
             <div className="flex items-center justify-between   md:block" >
@@ -173,7 +173,7 @@ export default function Page() {
     alt="Picture of the author"
   />
    
-  <div style={{ color: 'white', fontSize: '3em', marginTop: '-20vh', width: '400px'   }} className='text-center mx-auto sm:text-left xl:mr-auto  ' data-aos="fade-up" data-aos-duration="1000">
+  <div style={{ color: 'white', marginTop: '-20vh', width: '400px'   }} className='text-center  text-[36px] mx-auto sm:text-left xl:mr-auto  ' data-aos="fade-up" data-aos-duration="1000">
     <span className="text-2xl homepagescreen:text-[2rem]">Hello there, I am</span>
     <Typewriter
       options={{
@@ -197,7 +197,7 @@ export default function Page() {
           .start();
       }}
     />
-    <p className=" text-2xl mt-4 text-white mb-5 sm:text-xl md:text-2xl homepagescreen:text-[1.75rem]" data-aos="fade-up" data-aos-duration="1000">
+    <p className=" smallestcpsize:text-[20px] smallcpsize:text-2xl mt-4 text-white mb-5 sm:text-xl md:text-2xl homepagescreen:text-[1.75rem]" data-aos="fade-up" data-aos-duration="1000">
       Aspiring  <span className='text-gray-200 animate-pulse font-bold'>Software Developer</span>
     </p> 
    
@@ -218,21 +218,21 @@ export default function Page() {
   
   </div>
 </div>
-<h1 className="text-center mt-4 mb-10 text-4xl font-bold  text-white animate-pulse" data-aos="fade-up" data-aos-duration="1000" id='aboutPage'>
+<h1 className="text-center mt-4 mb-10 text-[24px] cpsize:text-[36px] font-bold  text-white animate-pulse" data-aos="fade-up" data-aos-duration="1000" id='aboutPage'>
 <span className='text-gray-500' > ⸻ </span>ABOUT ME<span className='text-gray-500'> ⸻ </span>
     </h1>
 <div>
 <div className="bg-black">
   <div className="flex flex-col lg:flex-row">
-    <div data-aos="fade-up" data-aos-duration="1000" className="xl:ml-auto xl:my-auto">
+    <div data-aos="fade-up" data-aos-duration="1000" className="semixl:ml-auto lg:mt-6 cc:mt-2 xx:mt-0 zz:mt-4  xl:my-auto">
       <Image 
-        className="shadow-3xl  lg:mt-16 lg:ml-14 w-3/5 xl:my-auto lg:w-[400px] mx-auto semixl:mt-8 semixl:ml-16 semixl:w-[450px] shadow-gray-500 rounded-xl transform transition duration-500 hover:scale-125"  
+        className="shadow-3xl  lg:mt-16 lg:ml-14 w-[80%] sm:w-[70%] md:w-[60%] aboutpic:w-[55%] xl:my-auto lg:w-[450px] mx-auto  semixl:w-[450px] shadow-gray-500 rounded-xl transform transition duration-500 hover:scale-125"  
         src={aboutImg}
-        width={400}
+        
         alt="Picture of the author"
       />
     </div>
-    <p className="text-left text-white w-11/12 md:w-5/6 xl:mr-auto xl:mx-4 xl:w-[45%] semiMed:w-11/12 lg:w-2/4 p-8 mx-auto" data-aos="fade-up" data-aos-duration="1000">
+    <p className="text-left text-white  w-full md:w-5/6 xl:mr-auto xl:mx-4 xl:w-[45%] xl:my-auto semiMed:w-11/12 lg:w-2/4 zz:mt-10 p-10 mx-auto " data-aos="fade-up" data-aos-duration="1000">
       Hello! I'm <span className="text-gray-200 font-bold">James Adrian A. Denoy</span>, a 17-year-old Grade 12 student currently residing in Brgy. Tambulilid, Ormoc City, Philippines. From a young age, I've had a deep fascination with computers and technology. I would spend hours exploring the intricacies of websites, wondering how they worked and what made them function.
       <br/><br/>
       As an aspiring software developer, I am driven by my passion for creating innovative solutions and bringing ideas to life through code. I am currently honing my skills in Web Development, where I am gaining valuable knowledge in various programming languages and development tools.

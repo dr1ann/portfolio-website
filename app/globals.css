@@ -89,3 +89,11 @@ margin-top: 200px;
     /* Add other styles for the cursor */
   }
 }
+
+@media (min-width: 376px) {
+  .typewriter-wrapper {
+    
+    font-size: 48px;
+    /* Add other styles for the cursor */
+  }
+}
