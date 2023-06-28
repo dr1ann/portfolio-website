@@ -33,7 +33,8 @@ module.exports = {
         lg: '0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05)',
         xl: '0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04)',
         '2xl': '0 25px 50px -12px rgba(0, 0, 0, 0.25)',
-        '3xl': '0 0 10px 2px rgba(0, 0, 0, 0.2)',
+        '3xl': '0 0 14px 4px rgba(0, 0, 0, 1)',
+        'xxl': '0 0 20px 4px rgba(0, 0, 0, 1)',
         inner: 'inset 0 2px 4px 0 rgba(0, 0, 0, 0.06)',
         none: 'none',
       },
@@ -44,11 +45,18 @@ module.exports = {
        },
        screens: {
       
-        bigsize: '1457px'
+        bigsize: '1457px',
+        semiMed: '700px',
+        semiLg: '945px',
+        aftermd:'824px',
+        semixl: '1180px'
       },
       spacing: {
         '1stcustom': '10vh',
         '2ndcustom': '20vh', // Add your custom margin-right value here
+      },
+      width: {
+        bigwidth: '2500%'
       }
       
     },

@@ -19,7 +19,7 @@ import emailIcon from './Images/emailIcon.png'
 import IgIcon from './Images/facebookIcon-removebg-preview.png'
 import cursor from './Images/cursor.png'
 import aboutImg from './Images/aboutimg.jpeg'
-import projThumbnail from './Images/thumbnail.png'
+import projThumbnail from './Images/1stprogwbg.png'
 import Typewriter from 'typewriter-effect';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -163,16 +163,17 @@ export default function Page() {
         </div>
       </nav>
       </Headroom>
-      <div className="h-screen w-screen flex justify-between items-center" >
+      <div className="h-screen w-screen flex justify-between items-center " >
+        
   <Image
-    className="float-left mb-20 hidden sm:block sm:w-2/4 lg:w-2/5 lg:ml-8 "
+    className="float-left mb-24 hidden sm:block sm:w-2/4 lg:w-2/5 lg:ml-8 xl:ml-auto"
     
     src={profilePic}
    
     alt="Picture of the author"
   />
    
-  <div style={{ color: 'white', fontSize: '3em', marginTop: '-20vh', width: '400px'   }} className='text-center mx-auto sm:text-left xl:mr-1stcustom  ' data-aos="fade-up" data-aos-duration="1000">
+  <div style={{ color: 'white', fontSize: '3em', marginTop: '-20vh', width: '400px'   }} className='text-center mx-auto sm:text-left xl:mr-auto  ' data-aos="fade-up" data-aos-duration="1000">
     <span className="text-2xl">Hello there, I am</span>
     <Typewriter
       options={{
@@ -221,24 +222,24 @@ export default function Page() {
 <span className='text-gray-500' > ⸻ </span>ABOUT ME<span className='text-gray-500'> ⸻ </span>
     </h1>
 <div>
-<div className="bg-black " >
-<div className="flex items-center justify-center" >
-   <div data-aos="fade-up" data-aos-duration="1000">
-    <Image 
-
-      className=" ml-20 border-gray-500 border-4 border-solid p-2 rounded-xl transform transition duration-500 hover:scale-125"  
-      src={aboutImg}
-      width={450}
-      height={200}
-      alt="Picture of the author"
-    />
+<div className="bg-black">
+  <div className="flex flex-col lg:flex-row">
+    <div data-aos="fade-up" data-aos-duration="1000" className="xl:ml-auto xl:my-auto">
+      <Image 
+        className="shadow-3xl  lg:mt-16 lg:ml-14 w-3/5 xl:my-auto lg:w-[400px] mx-auto semixl:mt-8 semixl:ml-16 semixl:w-[450px] shadow-gray-500 rounded-xl transform transition duration-500 hover:scale-125"  
+        src={aboutImg}
+        width={400}
+        alt="Picture of the author"
+      />
     </div>
-    <p className='text-justify text-white w-2/4 ml-auto mr-20' data-aos="fade-up" data-aos-duration="1000"> Hello! I'm  <span className='text-gray-200 font-bold'>James Adrian A. Denoy</span>, a 17-year-old Grade 12 student currently residing in Brgy. Tambulilid, Ormoc City, Philippines. From a young age, I've had a deep fascination with computers and technology. I would spend hours exploring the intricacies of websites, wondering how they worked and what made them function.
-<br></br>
-<br></br>
-As an aspiring software developer, I am driven by my passion for creating innovative solutions and bringing ideas to life through code. I am currently honing my skills in Web Development, where I am gaining valuable knowledge in various programming languages and development tools.</p>
+    <p className="text-left text-white w-11/12 md:w-5/6 xl:mr-auto xl:mx-4 xl:w-[45%] semiMed:w-11/12 lg:w-2/4 p-8 mx-auto" data-aos="fade-up" data-aos-duration="1000">
+      Hello! I'm <span className="text-gray-200 font-bold">James Adrian A. Denoy</span>, a 17-year-old Grade 12 student currently residing in Brgy. Tambulilid, Ormoc City, Philippines. From a young age, I've had a deep fascination with computers and technology. I would spend hours exploring the intricacies of websites, wondering how they worked and what made them function.
+      <br/><br/>
+      As an aspiring software developer, I am driven by my passion for creating innovative solutions and bringing ideas to life through code. I am currently honing my skills in Web Development, where I am gaining valuable knowledge in various programming languages and development tools.
+    </p>
   </div>
 </div>
+
 <h1 className="text-left text-2xl font-bold text-white ml-10 mt-10 animate-pulse" data-aos="fade-up" data-aos-duration="1000">
       SKILLS <span className='text-gray-500'> ⸻ </span>
     </h1> 
@@ -317,12 +318,12 @@ ACHIEVEMENTS <span className='text-gray-500'> ⸻ </span>
 
      </h1>
    
-     <div className="grid grid-cols-2 gap-5 bg-black w-2/4 float-left"  >
+     <div className="grid grid-cols-2 gap-8 bg-black w-2/4 float-left"  >
   <div className="relative h-50 hover:z-20"  data-aos="fade-up" 
     data-aos-duration="1000">
     <Image
    
-      className="object-cover h-full w-full z-10 border-gray-500 border-4 border-solid p-2 rounded-xl transform transition duration-500 hover:scale-125"
+      className="object-cover h-full w-full z-10 shadow-3xl shadow-gray-500 rounded-xl transform transition duration-500 hover:scale-125"
       src={bplanCert}
       alt="Image 1"
     />
@@ -331,7 +332,7 @@ ACHIEVEMENTS <span className='text-gray-500'> ⸻ </span>
   data-aos-duration="1000">
   <Image
 
-  className="object-cover  h-full w-full border-gray-500 border-4 border-solid p-2 rounded-xl transform transition duration-500 hover:scale-125 "
+  className="object-cover  h-full w-full shadow-3xl shadow-gray-500 rounded-xl transform transition duration-500 hover:scale-125 "
   src={bplanDoc}
   alt="Image 2"
 />
@@ -348,11 +349,11 @@ ACHIEVEMENTS <span className='text-gray-500'> ⸻ </span>
 </div>
 
 {/* 1st ACHIEVEMENT */}
- <div className="grid grid-cols-2 gap-5 bg-black w-2/4 float-right">
+ <div className="grid grid-cols-2 gap-8 bg-black w-2/4 float-right">
   <div className="relative h-50 hover:z-20"  data-aos="fade-up" 
     data-aos-duration="1000">
     <Image
-      className="object-cover  h-full w-full z-10 border-gray-500 border-4 border-solid p-2 rounded-xl transform transition duration-500 hover:scale-125"
+      className="object-cover  h-full w-full z-10 shadow-3xl shadow-gray-500 rounded-xl transform transition duration-500 hover:scale-125"
       src={codefestDoc}
       alt="Image 1"
     />
@@ -360,7 +361,7 @@ ACHIEVEMENTS <span className='text-gray-500'> ⸻ </span>
   <div className="relative h-50"  data-aos="fade-up" 
     data-aos-duration="1000">
     <Image
-      className="object-cover h-full w-full  z-10 border-gray-500 border-4 border-solid p-2 rounded-xl transform transition duration-500 hover:scale-125"
+      className="object-cover h-full w-full  z-10 shadow-3xl shadow-gray-500 rounded-xl transform transition duration-500 hover:scale-125"
       src={codefestCert}
       alt="Image 2"
     />
@@ -381,9 +382,9 @@ ACHIEVEMENTS <span className='text-gray-500'> ⸻ </span>
 
 <div className="flex items-center" data-aos="fade-up" data-aos-duration="1000" >
    <Image    
-      className="mt-10 transform transition duration-500 hover:scale-125 "  
+      className="mt-10 mr-20 ml-5 shadow-3xl shadow-gray-500 rounded-xl transform transition duration-500 hover:scale-125 "  
       src={projThumbnail}
-      width={550}
+      width={400}
       height={100}
       alt="HTML Icon"
     />
