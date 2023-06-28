@@ -166,7 +166,7 @@ export default function Page() {
       <div className="h-screen w-screen flex justify-between items-center " >
         
   <Image
-    className="float-left mb-24 hidden sm:block sm:w-2/4 lg:w-2/5 lg:ml-8 xl:ml-auto"
+    className="float-left mb-24 hidden sm:block sm:w-2/4 lg:w-2/5 ml-auto"
     
     src={profilePic}
    
