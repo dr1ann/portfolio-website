@@ -71,29 +71,100 @@ margin-top: 200px;
   box-shadow: inset 100px 0 0 0 #6B7280;
   color: white;
 }
-@media (min-width: 640px) {
-  .typewriter-wrapper {
+
+
+
+@media (min-width: 200px) {
+  .typewriter-wrapper span {
+    
+    font-size: 30px;
+    /* Add other styles for the cursor */
+  }
+}
+@media (min-width: 400px) {
+  .typewriter-wrapper span {
+    
     font-size: 38px;
     /* Add other styles for the cursor */
   }
 }
+@media (min-width: 640px) {
+  .typewriter-wrapper span {
+    font-size: 34px;
+    /* Add other styles for the cursor */
+  }
+}
 @media (min-width: 768px) {
-  .typewriter-wrapper {
+  .typewriter-wrapper span {
+    font-size: 42px;
+    /* Add other styles for the cursor */
+  }
+}
+@media (min-width: 1280px) {
+  .typewriter-wrapper span {
     font-size: 48px;
     /* Add other styles for the cursor */
   }
 }
 @media (min-width: 2000px) {
-  .typewriter-wrapper {
-    font-size: 54px;
+  .typewriter-wrapper span {
+    font-size: 50px;
     /* Add other styles for the cursor */
   }
 }
+.glitch{
 
-@media (min-width: 376px) {
-  .typewriter-wrapper {
-    
-    font-size: 48px;
-    /* Add other styles for the cursor */
+  
+  animation: glitch 687ms infinite;
+  
+  text-transform: uppercase;
+  position: relative;
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  
+  text-shadow: 0.05em 0 0 rgba(255, 0, 0, .75), -0.025em -.05em 0 rgba(0, 255, 0, .75), 0.025em .05em 0 rgba(0, 0, 255, .75);
   }
-}
+ @keyframes glitch{
+  0%{
+  text-shadow:
+  0.05em 0 0 rgba(255, 0, 0, .75),
+  -0.025em -.05em 0 rgba(0, 255, 0, .75),
+  0.025em .05em 0 rgba(0, 0, 255, .75);
+  }
+  14%{
+  text-shadow:
+  0.05em 0 0 rgba(255, 0, 0, .75),
+  -0.025em -.05em 0 rgba(0, 255, 0, .75),
+  0.025em .05em 0 rgba(0, 0, 255, .75);
+  }
+  15%{
+  text-shadow:
+  -0.05em -.025em 0 rgba(255, 0, 0, .75),
+  0.025em 0.025em 0 rgba(0, 255, 0, .75),
+  -0.05em -.05em 0 rgba(0, 0, 255, .75);
+  }
+  49%{
+  text-shadow:
+  -0.05em -.025em 0 rgba(255, 0, 0, .75),
+  0.025em 0.025em 0 rgba(0, 255, 0, .75),
+  -0.05em -.05em 0 rgba(0, 0, 255, .75);
+  }
+  50%{
+  text-shadow:
+  0.025em 0.05em 0 rgba(255, 0, 0, .75),
+  0.05em 0 0 rgba(0, 255, 0, .75),
+  0 -0.05em 0 rgba(0, 0, 255, .75);
+  }
+  99%{
+  text-shadow:
+  0.025em 0.05em 0 rgba(255, 0, 0, .75),
+  0.05em 0 0 rgba(0, 255, 0, .75),
+  0 -0.05em 0 rgba(0, 0, 255, .75);
+  }
+  100%{
+  text-shadow:
+  -0.025em 0 0 rgba(255, 0, 0, .75),
+  -0.025em -0.025em 0 rgba(0, 255, 0, .75),
+  -0.025em -0.05em 0 rgba(0, 0, 255, .75);
+  }
+  }

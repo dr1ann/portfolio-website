@@ -173,8 +173,8 @@ export default function Page() {
     alt="Picture of the author"
   />
    
-  <div style={{ color: 'white', marginTop: '-20vh', width: '400px'   }} className='text-center  text-[36px] mx-auto sm:text-left xl:mr-auto  ' data-aos="fade-up" data-aos-duration="1000">
-    <span className="text-2xl homepagescreen:text-[2rem]">Hello there, I am</span>
+  <div style={{ color: 'white', marginTop: '-20vh', width: '400px'   }} className='text-center  text-[36px] mx-auto sm:text-left xl:mr-auto glitch' id='textGlitch' data-aos="fade-up" data-aos-duration="1000">
+    <span className="text-[18px] smallestcpsize:text-[14px]  smallcpsize:text-[16px] homepagescreen:text-[22px]">Hello there, I am</span>
     <Typewriter
       options={{
         strings: ['<span style="font-weight: bold; color: #EDF2F7;">James Adrian</span>'],
@@ -197,8 +197,9 @@ export default function Page() {
           .start();
       }}
     />
-    <p className=" smallestcpsize:text-[20px] smallcpsize:text-2xl mt-4 text-white mb-5 sm:text-xl md:text-2xl homepagescreen:text-[1.75rem]" data-aos="fade-up" data-aos-duration="1000">
-      Aspiring  <span className='text-gray-200 animate-pulse font-bold'>Software Developer</span>
+    <p className=" smallestcpsize:text-[14px]  smallcpsize:text-[16px] sm:text-[16px] xl:text-[21px] mt-4 text-white mb-5  md:text-xl homepagescreen:text-[22px]" data-aos="fade-up" data-aos-duration="1000">
+    Aspiring Software Developer
+      
     </p> 
    
     <a href="https://web.facebook.com/jamesdenoy12/" target="_blank" rel="noopener noreferrer" className="icon-link" >
