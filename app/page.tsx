@@ -246,7 +246,7 @@ export default function Page() {
       SKILLS <span className='text-gray-500'> ⸻ </span>
     </h1> 
     <div className="flow-root p-10 ">
-  <div className="flex flex-col sm:flex-row items-center justify-center mt-10" >
+  <div className="flex flex-col sm:flex-row items-center justify-center" >
    <Image    
      
       data-aos="fade-up" 
