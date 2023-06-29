@@ -51,6 +51,7 @@ module.exports = {
         aftermd:'824px',
         semixl: '1180px',
         homepagescreen:'2000px',
+        skillsSec: '811px',
         aboutpic: '900px',
         cc: '1034px',
         xx:'1057px',
@@ -65,7 +66,10 @@ module.exports = {
       },
       width: {
         bigwidth: '2500%'
-      }
+      },
+      letterSpacing: {
+        tightest: '-.070em',
+      },
       
     },
     
