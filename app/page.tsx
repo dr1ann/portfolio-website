@@ -234,7 +234,7 @@ export default function Page() {
         alt="Picture of the author"
       />
     </div>
-    <p className="text-left  text-white  w-full md:w-5/6 xl:mr-auto xl:mx-4 xl:w-[45%] xl:my-auto semiMed:w-11/12 lg:w-2/4 zz:mt-10 p-10 mx-auto " data-aos="fade-up" data-aos-duration="1000">
+    <p className="text-left  text-white shadow-3xl w-full md:w-5/6 xl:mr-auto xl:mx-4 xl:w-[45%] xl:my-auto semiMed:w-11/12 lg:w-2/4 zz:mt-10 p-10 mx-auto " data-aos="fade-up" data-aos-duration="1000">
       Hello! I'm <span className="text-gray-200 font-bold">James Adrian A. Denoy</span>, a 17-year-old Grade 12 student currently residing in Brgy. Tambulilid, Ormoc City, Philippines. From a young age, I've had a deep fascination with computers and technology. I would spend hours exploring the intricacies of websites, wondering how they worked and what made them function.
       <br/><br/>
       As an aspiring software developer, I am driven by my passion for creating innovative solutions and bringing ideas to life through code. I am currently honing my skills in Web Development, where I am gaining valuable knowledge in various programming languages and development tools.
@@ -303,7 +303,7 @@ export default function Page() {
  
   <div className="flex flex-col  sm:flex-row  items-center justify-center mt-10">
    <Image    
-      className=" sm:mt-12 sm:mr-6 sm:ml-3" 
+      className="  sm:mr-6 sm:ml-3" 
       data-aos="fade-up"
        data-aos-duration="1000" 
       src={jsIcon}
@@ -312,7 +312,7 @@ export default function Page() {
       alt="JS Icon"
     />
  <div className='shadow-3xl shadow-gray-500 p-5 mt-5 sm:mt-0'>
-      <h1 className="text-center sm:text-left  text-4xl mt-6 text-gray-200 font-bold" data-aos="fade-up" data-aos-duration="1000">
+      <h1 className="text-center sm:text-left  text-4xl text-gray-200 font-bold" data-aos="fade-up" data-aos-duration="1000">
         JavaScript 
       </h1>
       <div className="flex items-center justify-center sm:justify-start sm:mt-2 mt-5 " data-aos="fade-up" data-aos-duration="1000">
