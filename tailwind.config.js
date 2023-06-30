@@ -40,7 +40,8 @@ module.exports = {
       },
       fontSize: {
         'forghIcon': '1.75rem',
-        
+        xxs: "clamp(1rem, 4vw, 1.25rem)",
+        dynamic: "clamp(1rem, 2vw, 1.25rem)",
         '10xl': '9.35rem',
        },
        screens: {
@@ -51,14 +52,18 @@ module.exports = {
         aftermd:'824px',
         semixl: '1180px',
         homepagescreen:'2000px',
+        bigmonitor: '1920px',
         skillsSec: '811px',
         aboutpic: '900px',
         cc: '1034px',
         xx:'1057px',
+        avsize: '1333px',
         zz:'1212px',
         cpsize: '490px',
         smallcpsize: '382px',
-        smallestcpsize: '277px'
+        smallestcpsize: '277px',
+        medsmall:'330px',
+        jsicon:'315px'
       },
       spacing: {
         '1stcustom': '10vh',

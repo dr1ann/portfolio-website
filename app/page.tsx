@@ -49,7 +49,7 @@ export default function Page() {
         
       </Head>
       <Headroom>
-      <nav className="w-full bg-black">
+      <nav className="w-full bg-black" data-aos="fade-up" data-aos-duration="1000">
         <div className="justify-between  z-30 px-4 md:items-center md:flex md:px-8  ">
           <div>
             <div className="flex items-center justify-between   md:block" >
@@ -166,7 +166,7 @@ export default function Page() {
       <div className="h-screen w-screen flex justify-between items-center " id='homepage' >
         
   <Image
-    className="float-left mb-24 hidden sm:block sm:w-2/4 lg:w-2/5 ml-auto"
+    className="float-left mb-24 hidden sm:block sm:w-2/4 lg:w-2/5 ml-auto" data-aos="fade-up" data-aos-duration="1000"
     
     src={profilePic}
    
@@ -224,21 +224,24 @@ export default function Page() {
     </h1>
 <div>
 <div className="bg-black">
-  <div className="flex flex-col lg:flex-row">
-    <div  className="semixl:ml-auto lg:mt-6 cc:mt-2 xx:mt-0 zz:mt-4  xl:my-auto">
+  <div className="flex flex-col xl:flex-row ">
+   
+    <div  className="xl:ml-auto  cc:mt-2 xx:mt-0 zz:mt-4  xl:my-auto">
       <Image 
-        className="shadow-3xl  lg:mt-16 lg:ml-14 w-[80%] sm:w-[70%] md:w-[60%] aboutpic:w-[55%] xl:my-auto lg:w-[450px] mx-auto  semixl:w-[450px] shadow-gray-500 rounded-xl transform transition duration-500 hover:scale-125"  
+        className="shadow-3xl   w-[75%] sm:w-[70%] md:w-[60%] aboutpic:w-[55%] xl:my-auto lg:w-[35rem] xl:w-[30rem] mx-auto  bigmonitor:w-[40rem] shadow-gray-500 rounded-xl transform transition duration-500 hover:scale-125"  
         src={aboutImg}
         data-aos="fade-up" 
         data-aos-duration="1000"
         alt="Picture of the author"
       />
     </div>
-    <p className="text-left  text-white shadow-3xl w-full md:w-5/6 xl:mr-auto xl:mx-4 xl:w-[45%] xl:my-auto semiMed:w-11/12 lg:w-2/4 zz:mt-10 p-10 mx-auto " data-aos="fade-up" data-aos-duration="1000">
+ 
+    <p className="text-left text-[12px] cpsize:text-[1rem] mt-10 text-white shadow-3xl lg:mr-auto  shadow-gray-500 w-[80%] md:w-5/6 xl:mr-auto xl:ml-10  xl:w-[45%] xl:my-auto   p-6 mx-auto bigmonitor:text-[1.50rem]" data-aos="fade-up" data-aos-duration="1000">
       Hello! I'm <span className="text-gray-200 font-bold">James Adrian A. Denoy</span>, a 17-year-old Grade 12 student currently residing in Brgy. Tambulilid, Ormoc City, Philippines. From a young age, I've had a deep fascination with computers and technology. I would spend hours exploring the intricacies of websites, wondering how they worked and what made them function.
       <br/><br/>
       As an aspiring software developer, I am driven by my passion for creating innovative solutions and bringing ideas to life through code. I am currently honing my skills in Web Development, where I am gaining valuable knowledge in various programming languages and development tools.
     </p>
+ 
   </div>
 </div>
 
@@ -246,36 +249,37 @@ export default function Page() {
       SKILLS <span className='text-gray-500'> ⸻ </span>
     </h1> 
     <div className="flow-root p-10 ">
-  <div className="flex flex-col sm:flex-row items-center justify-center mt-2" >
+      <div className='max-w-[80%] mx-auto'>
+      <div className="flex flex-col  md:flex-row  items-center justify-center mt-10 ">
    <Image    
-     
-      data-aos="fade-up" 
-      data-aos-duration="1000"  
+      className="  md:mr-8 md:ml-3" 
+      data-aos="fade-up"
+       data-aos-duration="1000" 
       src={htmlIcon}
       width={200}
       height={100}
-      alt="HTML Icon"
+      alt="JS Icon"
     />
- <div className='shadow-3xl shadow-gray-500 p-5 mt-5 sm:mt-0'>
-      <h1 className="text-center sm:text-left text-4xl  text-gray-200 font-bold" data-aos="fade-up" data-aos-duration="1000">
+ <div className='shadow-3xl shadow-gray-500 p-5 mt-5 md:mt-0 w-[130%] medsmall:w-full'>
+      <h1 className="text-center md:text-left  text-4xl text-gray-200 font-bold" data-aos="fade-up" data-aos-duration="1000">
         HTML 
       </h1>
-      <div className="flex items-center justify-center sm:justify-start sm:mt-2 mt-5" data-aos="fade-up" data-aos-duration="1000">
-  <div className="text-white text-xl font-500 rounded-full bg-gray-500 px-2" data-aos="fade-up" data-aos-duration="1000">
+      <div className="flex items-center justify-center md:justify-start md:mt-2 mt-5 " data-aos="fade-up" data-aos-duration="1000">
+  <div className="text-white text-center text-[12px] cpsize:text-[1rem] font-500 rounded-full  bg-gray-500 px-2" data-aos="fade-up" data-aos-duration="1000">
     7 months of experience
   </div>
 </div>
-    
-      <p className="text-white mt-2 text-center sm:text-left skillsSec:w-[85%] " data-aos="fade-up" data-aos-duration="1000">
-      I have developed a web page using HTML as part of my large-scale e-commerce project. I utilized semantic HTML elements to create a well-structured and organized website.
+
+      <p className="text-white mt-2 text-[12px] cpsize:text-[1rem] text-left md:text-left bigmonitor:text-[1.50rem]"  data-aos="fade-up" data-aos-duration="1000">
+      I have a strong foundation in utilizing semantic HTML elements. I have the ability to create interfaces that are not only visually appealing but also user-friendly and I always strive to deliver well-structured and accessible web experiences.
       </p>
-      
+    
     </div>
   </div>
-  <div className="flex flex-col  sm:flex-row-reverse items-center mt-10 justify-center">
+  <div className="flex flex-col  md:flex-row-reverse items-center mt-10 justify-center ">
  
    <Image    
-      
+       className='md:ml-5'
       data-aos="fade-up" 
       data-aos-duration="1000"  
       src={cssIcon}
@@ -284,26 +288,26 @@ export default function Page() {
       alt="CSS Icon"
     />
    
- <div className='skillsSec:w-[70%]  shadow-3xl shadow-gray-500 p-5 mt-5 sm:mt-0'>
-      <h1 className="text-center sm:text-left text-4xl  text-gray-200 font-bold" data-aos="fade-up" data-aos-duration="1000">
+ <div className='shadow-3xl shadow-gray-500 p-5 mt-5 md:mt-0 w-[130%] medsmall:w-full'>
+      <h1 className="text-center md:text-left  text-4xl text-gray-200 font-bold" data-aos="fade-up" data-aos-duration="1000">
         CSS 
       </h1>
-      <div className="flex items-center justify-center sm:justify-start sm:mt-2 mt-5" data-aos="fade-up" data-aos-duration="1000">
-  <div className="text-white text-xl font-500 rounded-full bg-gray-500 px-2" data-aos="fade-up" data-aos-duration="1000">
+      <div className="flex items-center justify-center md:justify-start md:mt-2 mt-5 " data-aos="fade-up" data-aos-duration="1000">
+  <div className="text-white text-[12px] cpsize:text-[1rem] text-center font-500 rounded-full bg-gray-500 px-2" data-aos="fade-up" data-aos-duration="1000">
     7 months of experience
   </div>
 </div>
 
-      <p className="text-white mt-2 text-center sm:text-left  " data-aos="fade-up" data-aos-duration="1000">
-      I have a strong grasp of CSS styling and layout techniques. In addition, I am actively expanding my skill set by learning and implementing the popular CSS framework,  <b>Tailwind CSS</b>.
+      <p className="text-white mt-2 text-[12px] cpsize:text-[1rem] text-left md:text-left bigmonitor:text-[1.50rem]" data-aos="fade-up" data-aos-duration="1000">
+      I have a solid understanding of styling and layout techniques, allowing me to create visually appealing web designs. Additionally, I have recently started exploring and implementing <b>Tailwind CSS</b> to enhance my productivity and create responsive designs more efficiently.
       </p>
     
     </div>
   </div>
  
-  <div className="flex flex-col  sm:flex-row  items-center justify-center mt-10">
+  <div className="flex flex-col  md:flex-row  items-center justify-center mt-10 ">
    <Image    
-      className="  sm:mr-6 sm:ml-3" 
+      className="  md:mr-8 md:ml-3 " 
       data-aos="fade-up"
        data-aos-duration="1000" 
       src={jsIcon}
@@ -311,23 +315,23 @@ export default function Page() {
       height={100}
       alt="JS Icon"
     />
- <div className='shadow-3xl shadow-gray-500 p-5 mt-5 sm:mt-0'>
-      <h1 className="text-center sm:text-left  text-4xl text-gray-200 font-bold" data-aos="fade-up" data-aos-duration="1000">
+ <div className='shadow-3xl shadow-gray-500 p-5 mt-5 md:mt-0 '>
+      <h1 className="text-center md:text-left  text-4xl text-gray-200 font-bold" data-aos="fade-up" data-aos-duration="1000">
         JavaScript 
       </h1>
-      <div className="flex items-center justify-center sm:justify-start sm:mt-2 mt-5 " data-aos="fade-up" data-aos-duration="1000">
-  <div className="text-white text-xl font-500 rounded-full bg-gray-500 px-2" data-aos="fade-up" data-aos-duration="1000">
+      <div className="flex items-center justify-center md:justify-start md:mt-2 mt-5 " data-aos="fade-up" data-aos-duration="1000">
+  <div className="text-white text-[12px] cpsize:text-[1rem] text-center font-500 rounded-full bg-gray-500 px-2" data-aos="fade-up" data-aos-duration="1000">
     6 months of experience
   </div>
 </div>
 
-      <p className="text-white mt-2 text-center sm:text-left skillsSec:w-[85%]"  data-aos="fade-up" data-aos-duration="1000">
-      I have hands-on experience in developing a large-scale e-commerce project using JavaScript, and I used <b>Node.js</b> for its backend development. Currently, I am further expanding my skills and exploring the possibilities of <b>Next.js</b> and <b>TypeScript</b> to enhance my web development expertise.
+      <p className="text-white mt-2 text-[12px] cpsize:text-[1rem] text-left md:text-left bigmonitor:text-[1.50rem]"  data-aos="fade-up" data-aos-duration="1000">
+      I have a solid understanding of JavaScript fundamentals and I am familiar with Node.js. I am actively exploring the possibilities of <b>Next.js</b> and <b>TypeScript</b> to further enhance my skills and broaden my expertise in web development.
       </p>
     
     </div>
   </div>
-
+  </div>
   
 
  

@@ -6,6 +6,7 @@
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
+
 }
 
 @media (prefers-color-scheme: dark) {
@@ -20,6 +21,17 @@ body {
   color: rgb(var(--foreground-rgb));
   background: transparent;
 }
+
+/* .description {
+  font-size: var(--fs-600);
+}
+@media (min-width: 1333px) {
+  :root {
+  --fs-600: 1.5rem;
+ 
+  --fs-400: 1.5rem;
+  }
+} */
 #wae {
   color: rgb(157, 157, 168);
 text-align: center;
