@@ -475,28 +475,32 @@ ACHIEVEMENTS <span className='text-gray-500'> ⸻ </span>
 <span className='text-gray-500' > ⸻ </span>CONTACT<span className='text-gray-500'> ⸻ </span>
     </h1>
   <div className='flex flex-wrap flex-row justify-center items-center gap-[2rem] px-[3rem] conicon:px-[5rem] contact:px-[2rem]'>
-  <div className='flex flex-col items-center justify-center'>
+  <div className='flex flex-col items-center justify-center' data-aos="fade-up"
+       data-aos-duration="1000" >
   <a href="https://web.facebook.com/jamesdenoy12/" target="_blank" rel="noopener noreferrer" className="icon-link" >
   <FontAwesomeIcon icon={faFacebook} className="text-black m-2 text-3xl animate-custom-bounce bg-gray-500 rounded-full p-2 "  />
  
 </a>
 <span className='text-white bg-gray-500 rounded-full px-2'>Facebook</span>
 </div>
-<div className='flex flex-col items-center justify-center'>
+<div className='flex flex-col items-center justify-center' data-aos="fade-up"
+       data-aos-duration="1000" >
   <a href="https://web.facebook.com/jamesdenoy12/" target="_blank" rel="noopener noreferrer" className="icon-link" >
   <FontAwesomeIcon icon={faInstagram} className="text-black m-2 text-3xl animate-custom-bounce bg-gray-500 rounded-full p-2 "  />
  
 </a>
 <span className='text-white bg-gray-500 px-2 rounded-full'>Instagram</span>
 </div>
-<div className='flex flex-col items-center justify-center mr-[10px]'>
+<div className='flex flex-col items-center justify-center mr-[10px]' data-aos="fade-up"
+       data-aos-duration="1000" >
   <a href="https://web.facebook.com/jamesdenoy12/" target="_blank" rel="noopener noreferrer" className="icon-link" >
   <FontAwesomeIcon icon={faGithub} className="text-black m-2 text-3xl animate-custom-bounce bg-gray-500 rounded-full p-2 "  />
  
 </a>
 <span className='text-white bg-gray-500 px-2 rounded-full'>Github</span>
 </div>
-<div className='flex flex-col items-center justify-center'>
+<div className='flex flex-col items-center justify-center' data-aos="fade-up"
+       data-aos-duration="1000" >
   <a href="https://web.facebook.com/jamesdenoy12/" target="_blank" rel="noopener noreferrer" className="icon-link" >
   <FontAwesomeIcon icon={faEnvelope} className="text-black m-2 text-3xl animate-custom-bounce bg-gray-500 rounded-full p-2 "  />
  
