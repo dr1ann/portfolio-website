@@ -226,12 +226,12 @@ export default function Page() {
 <div className="bg-black">
   <div className="flex flex-col xl:flex-row ">
    
-    <div  className="xl:ml-auto  cc:mt-2 xx:mt-0 zz:mt-4  xl:my-auto">
+    <div  className="xl:ml-auto  cc:mt-2 xx:mt-0 zz:mt-4  xl:my-auto" data-aos="fade-up" 
+        data-aos-duration="1000">
       <Image 
         className="shadow-3xl   w-[75%] sm:w-[70%] md:w-[60%] aboutpic:w-[55%] xl:my-auto lg:w-[35rem] xl:w-[30rem] mx-auto  bigmonitor:w-[40rem] shadow-gray-500 rounded-xl transform transition duration-500 hover:scale-125"  
         src={aboutImg}
-        data-aos="fade-up" 
-        data-aos-duration="1000"
+        
         alt="Picture of the author"
       />
     </div>
@@ -248,7 +248,7 @@ export default function Page() {
 <h1 className="text-left text-2xl font-bold text-white ml-10 mt-10 animate-pulse" data-aos="fade-up" data-aos-duration="1000">
       SKILLS <span className='text-gray-500'> ⸻ </span>
     </h1> 
-    <div className="flow-root p-10 ">
+    <div className="flow-root p-5 ">
       <div className='max-w-[80%] mx-auto'>
       <div className="flex flex-col  md:flex-row  items-center justify-center mt-10 ">
    <Image    
@@ -260,7 +260,7 @@ export default function Page() {
       height={100}
       alt="JS Icon"
     />
- <div className='shadow-3xl shadow-gray-500 p-5 mt-5 md:mt-0 w-[130%] medsmall:w-full'>
+ <div className='shadow-3xl shadow-gray-500 p-5 mt-5 md:mt-0 '>
       <h1 className="text-center md:text-left  text-4xl text-gray-200 font-bold" data-aos="fade-up" data-aos-duration="1000">
         HTML 
       </h1>
@@ -288,7 +288,7 @@ export default function Page() {
       alt="CSS Icon"
     />
    
- <div className='shadow-3xl shadow-gray-500 p-5 mt-5 md:mt-0 w-[130%] medsmall:w-full'>
+ <div className='shadow-3xl shadow-gray-500 p-5 mt-5 md:mt-0 '>
       <h1 className="text-center md:text-left  text-4xl text-gray-200 font-bold" data-aos="fade-up" data-aos-duration="1000">
         CSS 
       </h1>
