@@ -224,10 +224,10 @@ export default function Page() {
     </h1>
 <div>
 <div className="bg-black">
-  <div className="flex flex-col xl:flex-row ">
-   
-    <div  className="xl:ml-auto  cc:mt-2 xx:mt-0 zz:mt-4  xl:my-auto" data-aos="fade-up" 
+  <div className="flex flex-col xl:flex-row" data-aos="fade-up" 
         data-aos-duration="1000">
+   
+    <div  className="xl:ml-auto  cc:mt-2 xx:mt-0 zz:mt-4  xl:my-auto">
       <Image 
         className="shadow-3xl   w-[75%] sm:w-[70%] md:w-[60%] aboutpic:w-[55%] xl:my-auto lg:w-[35rem] xl:w-[30rem] mx-auto  bigmonitor:w-[40rem] shadow-gray-500 rounded-xl transform transition duration-500 hover:scale-125"  
         src={aboutImg}
