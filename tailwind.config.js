@@ -64,7 +64,9 @@ module.exports = {
         smallestcpsize: '277px',
         medsmall:'330px',
         med1small:'329px',
-        jsicon:'315px'
+        jsicon:'315px',
+        conicon:'419px',
+        contact: '483px'
       },
       spacing: {
         '1stcustom': '10vh',

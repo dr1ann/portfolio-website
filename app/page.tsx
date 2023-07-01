@@ -11,6 +11,7 @@ import cssIcon from './Images/cssicon.png'
 import jsIcon from './Images/jsicon.png'
 import nextjsIcon from './Images/nextjs.png'
 import bplanCert from './Images/bpcert.jpg'
+import tailwind from './Images/tailwind.png'
 import bplanDoc from './Images/bplan.jpg'
 import codefestCert from './Images/codefestCert1.png'
 import codefestDoc from './Images/codefest.jpg'
@@ -40,7 +41,7 @@ export default function Page() {
   useEffect(() => {
     AOS.init();
   }, []);
-
+  const iconSize = "7x";
   return (
     <div className='bg-black'>
       <Head>
@@ -208,7 +209,7 @@ export default function Page() {
 </a>
 
     <a href="https://www.instagram.com/dr1annnnnnn/" target="_blank" rel="noopener noreferrer" className="icon-link" >
-    <FontAwesomeIcon icon={faInstagram} className="text-black m-2  text-3xl animate-custom-bounce  bg-gray-500  rounded-full p-2" />
+    <FontAwesomeIcon icon={faInstagram} className="text-black m-2  text-[1.906rem] animate-custom-bounce  bg-gray-500  rounded-full p-2" />
     </a>
     <a href="https://github.com/dr1ann" target="_blank" rel="noopener noreferrer" className="icon-link"  >
     <FontAwesomeIcon icon={faGithub} className="text-black m-2 text-3xl animate-custom-bounce bg-gray-500  rounded-full p-2" />
@@ -424,19 +425,19 @@ ACHIEVEMENTS <span className='text-gray-500'> ⸻ </span>
       FasTrack
       </h1>
       <div className=' '>
-      <p className="inline-block mr-[0.25rem] text-[0.688rem] cpsize:text-[1rem] bigmonitor:text-[1.50rem] text-white text-lg font-500 rounded-full bg-gray-500 px-2 py-[2px] mt-5">
+      <p className="inline-block mr-[0.25rem] text-[0.688rem] cpsize:text-[1rem] bigmonitor:text-[1.50rem] text-white font-500 rounded-full bg-gray-500 px-2 py-[2px] mt-5">
       HTML
       </p>
-      <p className="inline-block mr-[0.25rem] text-[0.688rem] cpsize:text-[1rem] bigmonitor:text-[1.50rem] text-white text-lg font-500 rounded-full bg-gray-500 px-2 py-[2px] mt-5">
+      <p className="inline-block mr-[0.25rem] text-[0.688rem] cpsize:text-[1rem] bigmonitor:text-[1.50rem] text-white font-500 rounded-full bg-gray-500 px-2 py-[2px] mt-5">
       CSS
       </p>
-      <p className="inline-block mr-[0.25rem] text-[0.688rem] cpsize:text-[1rem] bigmonitor:text-[1.50rem] text-white text-lg font-500 rounded-full bg-gray-500 px-2 py-[2px] mt-5">
+      <p className="inline-block mr-[0.25rem] text-[0.688rem] cpsize:text-[1rem] bigmonitor:text-[1.50rem] text-white font-500 rounded-full bg-gray-500 px-2 py-[2px] mt-5">
       Javascript
       </p>
-      <p className="inline-block mr-[0.25rem] text-[0.688rem] cpsize:text-[1rem] bigmonitor:text-[1.50rem] text-white text-lg font-500 rounded-full bg-gray-500 px-2 py-[2px] mt-5">
+      <p className="inline-block mr-[0.25rem] text-[0.688rem] cpsize:text-[1rem] bigmonitor:text-[1.50rem] text-white font-500 rounded-full bg-gray-500 px-2 py-[2px] mt-5">
       Node.js
       </p>
-      <p className="inline-block text-[0.75rem] cpsize:text-[1rem] bigmonitor:text-[1.50rem] text-white text-lg font-500 rounded-full bg-gray-500 px-2 py-[2px] mt-5">
+      <p className="inline-block text-[0.75rem] cpsize:text-[1rem] bigmonitor:text-[1.50rem] text-white font-500 rounded-full bg-gray-500 px-2 py-[2px] mt-5">
       Firebase
       </p>
       
@@ -468,43 +469,66 @@ ACHIEVEMENTS <span className='text-gray-500'> ⸻ </span>
 
 </div>
     {/* end of the about me section  */}
-    <h1 className="text-center mt-32 mb-14 text-[1.375rem] medsmall:text-[1.5rem] cpsize:text-[2.25rem] font-bold  text-white animate-pulse" data-aos="fade-up" data-aos-duration="1000" id='projectsPage'>
+    <div className='mr-auto'>
+  
+    <h1 className="text-center mt-32 mb-10 text-[1.375rem] medsmall:text-[1.5rem] cpsize:text-[2.25rem] font-bold  text-white animate-pulse" data-aos="fade-up" data-aos-duration="1000" id='contactPage'>
 <span className='text-gray-500' > ⸻ </span>CONTACT<span className='text-gray-500'> ⸻ </span>
     </h1>
-    <div className="flex flex-row mx-auto  overflow-x-scroll items-center mt-8 animate-custom-bounce" data-aos="fade-up" data-aos-duration="1000">
-      <div className="w-64 h-64 mx-4 mb-8">
-  <a href="mailto:jamesdenoy56@gmail.com">
-    <div className="flex items-center flex-col mb-2 shadow-3xl hover:animate-pulse shadow-gray-500 bg-gray-500 rounded-2xl p-2">
-      <FontAwesomeIcon icon={faEnvelope} className="text-black m-2 text-10xl bg-gray-500 rounded-full p-2"  />
-      <span className="text-white w-9/12 text-center">Get in touch via Email</span>
-     
+  <div className='flex flex-wrap flex-row justify-center items-center gap-[2rem] px-[3rem] conicon:px-[5rem] contact:px-[2rem]'>
+  <div className='flex flex-col items-center justify-center'>
+  <a href="https://web.facebook.com/jamesdenoy12/" target="_blank" rel="noopener noreferrer" className="icon-link" >
+  <FontAwesomeIcon icon={faFacebook} className="text-black m-2 text-3xl animate-custom-bounce bg-gray-500 rounded-full p-2 "  />
+ 
+</a>
+<span className='text-white bg-gray-500 rounded-full px-2'>Facebook</span>
+</div>
+<div className='flex flex-col items-center justify-center'>
+  <a href="https://web.facebook.com/jamesdenoy12/" target="_blank" rel="noopener noreferrer" className="icon-link" >
+  <FontAwesomeIcon icon={faInstagram} className="text-black m-2 text-3xl animate-custom-bounce bg-gray-500 rounded-full p-2 "  />
+ 
+</a>
+<span className='text-white bg-gray-500 px-2 rounded-full'>Instagram</span>
+</div>
+<div className='flex flex-col items-center justify-center mr-[10px]'>
+  <a href="https://web.facebook.com/jamesdenoy12/" target="_blank" rel="noopener noreferrer" className="icon-link" >
+  <FontAwesomeIcon icon={faGithub} className="text-black m-2 text-3xl animate-custom-bounce bg-gray-500 rounded-full p-2 "  />
+ 
+</a>
+<span className='text-white bg-gray-500 px-2 rounded-full'>Github</span>
+</div>
+<div className='flex flex-col items-center justify-center'>
+  <a href="https://web.facebook.com/jamesdenoy12/" target="_blank" rel="noopener noreferrer" className="icon-link" >
+  <FontAwesomeIcon icon={faEnvelope} className="text-black m-2 text-3xl animate-custom-bounce bg-gray-500 rounded-full p-2 "  />
+ 
+</a>
+<span className='text-white rounded-full bg-gray-500 px-2'>Email</span>
+</div>
+  </div>
+ 
+</div>
+  <footer className='flex justify-end flex-row items-center px-6 mt-20 footer-class'>
+   
+  
+  <div className=' flex flex-row justify-center items-center py-10'>
+  <p className='text-white text-[0.5rem] cpsize:text-[1rem]'>Created with 
+
+
+</p>
+<Image className='w-[30px] '
+ src={nextjsIcon}
+      
+ alt="NEXT JS Icon"
+/>
+<Image className='w-[34px] '
+ src={tailwind}
+      
+ alt="NEXT JS Icon"
+/>
+<p className='text-white  text-[0.5rem] cpsize:text-[1rem]'>
+by  <span className='font-bold text-gray-200'>James Adrian Denoy </span>
+</p>
     </div>
-  </a>
-</div>
-
-<div className="w-64 h-64 mx-4 mb-8">
-  <a href="https://web.facebook.com/jamesdenoy12" target="_blank" rel="noopener noreferrer">
-    <div className="flex items-center flex-col mb-2 shadow-3xl hover:animate-pulse shadow-gray-500 bg-gray-500 rounded-2xl p-2">
-      <FontAwesomeIcon icon={faFacebook} className="text-black m-2 text-9xl  bg-gray-500 rounded-full p-2"  />
-      <span className="text-white w-9/12 text-center">Connect with me on Facebook</span>
-
-    </div>
-  </a>
-</div>
-<div className="w-64 h-64 mx-4 mb-8">
-  <a href="https://web.facebook.com/jamesdenoy12" target="_blank" rel="noopener noreferrer">
-    <div className="flex items-center flex-col mb-2 shadow-3xl hover:animate-pulse shadow-gray-500 bg-gray-500 rounded-2xl p-2">
-      <FontAwesomeIcon icon={faInstagram} className="text-black m-2 text-9xl  bg-gray-500 rounded-full p-2"  />
-      <span className="text-white w-9/12 text-center">Connect with me on Facebook</span>
-
-    </div>
-  </a>
-</div>
-
-
-
-
-</div>
+  </footer>
 
     </div>
    
