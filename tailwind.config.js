@@ -41,7 +41,7 @@ module.exports = {
       fontSize: {
         'forghIcon': '1.75rem',
         xxs: "clamp(1rem, 4vw, 1.25rem)",
-        dynamic: "clamp(1rem, 2vw, 1.25rem)",
+        dynamic: "clamp(1.5rem, 2vw, 2.5rem)",
         '10xl': '9.35rem',
        },
        screens: {
@@ -63,6 +63,7 @@ module.exports = {
         smallcpsize: '382px',
         smallestcpsize: '277px',
         medsmall:'330px',
+        med1small:'329px',
         jsicon:'315px'
       },
       spacing: {
@@ -70,7 +71,8 @@ module.exports = {
         '2ndcustom': '20vh', // Add your custom margin-right value here
       },
       width: {
-        bigwidth: '2500%'
+        bigwidth: '2500%',
+        clamped: 'clamp(10rem, 2vw, 16rem)'
       },
       letterSpacing: {
         tightest: '-.070em',

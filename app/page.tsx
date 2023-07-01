@@ -9,7 +9,7 @@ import aboutFace from './Images/aboutFaceWhite.jpg'
 import htmlIcon from './Images/htmlicon.png'
 import cssIcon from './Images/cssicon.png'
 import jsIcon from './Images/jsicon.png'
-import bplanCert from './Images/bplancert.jpg'
+import bplanCert from './Images/bpcert.jpg'
 import bplanDoc from './Images/bplan.jpg'
 import codefestCert from './Images/codefestCert1.png'
 import codefestDoc from './Images/codefest.jpg'
@@ -335,67 +335,68 @@ export default function Page() {
   
 
  
-<h1 className="text-left text-2xl font-bold text-white  mt-10 mb-10 animate-pulse" data-aos="fade-up" data-aos-duration="1000">
+<h1 className="text-left text-2xl  font-bold text-white  mt-10 mb-10 animate-pulse" data-aos="fade-up" data-aos-duration="1000">
 ACHIEVEMENTS <span className='text-gray-500'> ⸻ </span>
 
      </h1>
    
-     <div className="grid grid-cols-2 gap-8 bg-black w-2/4 float-left"  >
-  <div className="relative h-50 hover:z-20"  data-aos="fade-up" 
-    data-aos-duration="1000">
-    <Image
+     <div className='max-w-[80%] mx-auto'>
+     <div className="flex flex-col xx:flex-row items-center justify-center mt-10" data-aos="fade-up" data-aos-duration="1000">
+ 
    
-      className="object-cover h-full w-full z-10 shadow-3xl shadow-gray-500 rounded-xl transform transition duration-500 hover:scale-125"
-      src={bplanCert}
-      alt="Image 1"
-    />
-  </div>
-  <div className="relative h-50 "   data-aos="fade-up" 
-  data-aos-duration="1000">
-  <Image
+   
+      <Image    
+        className="mb-2 md:mb-8 xx:mb-0 xx:mr-8 shadow-3xl  w-[25rem] shadow-gray-500 object-cover rotate-2 opacity-40 rounded-xl transform transition duration-500 hover:scale-125 hover:opacity-100 hover:z-10" 
+        src={bplanCert}
+      
+        alt="JS Icon"
+      />
+   
+ 
+    
+   <div className='shadow-3xl shadow-gray-500 p-5 mt-5 md:mt-0'>
+      <h1 className="text-center mb-4 text-[1rem] med1small:text-xl cpsize:text-3xl sm:text-4xl text-gray-200 font-bold" data-aos="fade-up" data-aos-duration="1000">
+      BUSINESS PLAN
+      </h1>
+    
 
-  className="object-cover  h-full w-full shadow-3xl shadow-gray-500 rounded-xl transform transition duration-500 hover:scale-125 "
-  src={bplanDoc}
-  alt="Image 2"
+      <p className="text-white mt-2 text-[9px] med1small:text-[0.688rem] cpsize:text-[1rem] text-left md:text-left bigmonitor:text-[1.50rem]" data-aos="fade-up" data-aos-duration="1000">
+      Our participation in the business plan competition marked our team's first collaborative website development project. We created an innovative platform that bridges the gap between service seekers and providers, leveraging our diverse skills and fostering teamwork. This transformative experience fueled our growth as developers and inspired us to continue making an impact in the digital landscape.
+      </p>
+    
+    </div>
+  </div>
+  
+  <div className="flex flex-col  xx:flex-row-reverse items-center mt-10 justify-center" data-aos="fade-up" data-aos-duration="1000">
+ 
+  <Image    
+  className=" mb-2  md:mb-8 xx:mb-0 xx:ml-8 shadow-3xl w-[25rem] shadow-gray-500 object-cover rotate-2 opacity-40 rounded-xl transform transition duration-500 hover:scale-125 hover:opacity-100 hover:z-10"
+  src={codefestCert}
+
+  alt="JS Icon"
 />
 
-  </div>
-</div>
-<div className="flex items-center justify-center">
 
-  
-  <p className="text-white text-justify ml-20 mb-20 " data-aos="fade-up" data-aos-duration="1000">
-    <h1 className='text-gray-200 text-center mr-2 font-bold text-3xl'>BUSINESS PLAN COMPETITION</h1>
-    Our participation in the business plan competition marked our team's first collaborative website development project. We created an innovative platform that bridges the gap between service seekers and providers, leveraging our diverse skills and fostering teamwork. This transformative experience fueled our growth as developers and inspired us to continue making an impact in the digital landscape.
-  </p>
-</div>
 
-{/* 1st ACHIEVEMENT */}
- <div className="grid grid-cols-2 gap-8 bg-black w-2/4 float-right">
-  <div className="relative h-50 hover:z-20"  data-aos="fade-up" 
-    data-aos-duration="1000">
-    <Image
-      className="object-cover  h-full w-full z-10 shadow-3xl shadow-gray-500 rounded-xl transform transition duration-500 hover:scale-125"
-      src={codefestDoc}
-      alt="Image 1"
-    />
+ <div className='shadow-3xl shadow-gray-500 p-5 mt-5 md:mt-0 '>
+      <h1 className="text-center mb-4 text-[1rem] med1small:text-xl cpsize:text-3xl sm:text-4xl text-gray-200 font-bold" data-aos="fade-up" data-aos-duration="1000">
+        CODE FEST 
+      </h1>
+    
+
+      <p className="text-white mt-2 text-[9px] med1small:text-[0.688rem] cpsize:text-[1rem] text-left md:text-left bigmonitor:text-[1.50rem]" data-aos="fade-up" data-aos-duration="1000">
+      Our participation in the Code Fest coding competition marked our team's exciting debut in the world of competitive programming. As a front-end developer, I contributed to the development of a sophisticated grading system. This experience allowed me to showcase my skills, collaborate with talented teammates, and embrace the challenges of real-world coding projects.
+      </p>
+    
+    </div>
   </div>
-  <div className="relative h-50"  data-aos="fade-up" 
-    data-aos-duration="1000">
-    <Image
-      className="object-cover h-full w-full  z-10 shadow-3xl shadow-gray-500 rounded-xl transform transition duration-500 hover:scale-125"
-      src={codefestCert}
-      alt="Image 2"
-    />
+ 
+  
   </div>
-  
-</div>
-<p className="text-white text-justify ml-10 mr-10 w-2/5 mt-10"  data-aos="fade-up" 
-    data-aos-duration="1000">
-    <h1 className='text-gray-200 text-center mr-2 font-bold text-3xl'>CODE FEST</h1>
-    Our participation in the Code Fest coding competition marked our team's exciting debut in the world of competitive programming. As a front-end developer, I contributed to the development of a sophisticated grading system. This experience allowed me to showcase my skills, collaborate with talented teammates, and embrace the challenges of real-world coding projects.
-  </p>
-  
+
+
+
+
   {/* 2nd ACHIEVEMENT */}
 
   <h1 className="text-center mt-32 text-4xl font-bold text-white animate-pulse mb-10" data-aos="fade-up" data-aos-duration="1000" id='projectsPage'>
