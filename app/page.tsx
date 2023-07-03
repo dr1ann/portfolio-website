@@ -6,12 +6,14 @@ import Image from 'next/image';
 import profilePic from './Images/newdp.png'
 import headerImg from './Images/name.png'
 import aboutFace from './Images/aboutFaceWhite.jpg'
+import backgroundImage from './Images/htmlicon.png';
 import htmlIcon from './Images/htmlicon.png'
 import cssIcon from './Images/cssicon.png'
 import jsIcon from './Images/jsicon.png'
 import nextjsIcon from './Images/nextjs.png'
 import bplanCert from './Images/bpcert.jpg'
 import tailwind from './Images/tailwind.png'
+import typecsript from './Images/typescript.png'
 import bplanDoc from './Images/bplan.jpg'
 import codefestCert from './Images/codefestCert1.png'
 import codefestDoc from './Images/codefest.jpg'
@@ -25,7 +27,8 @@ import projThumbnail from './Images/1stprogwbg.png'
 import Typewriter from 'typewriter-effect';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-
+import nodejs from './Images/nodejs.png'
+import firebase from './Images/firebase.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebook, faInstagram, faGithub  } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
@@ -252,89 +255,81 @@ SKILLS <span className='text-gray-500'> ⸻ </span>
 
      </h1>
     <div className="flow-root p-5 ">
-      <div className='max-w-[80%] mx-auto'>
-      <div className="flex flex-col  md:flex-row  items-center justify-center mt-10 ">
-   <Image    
-      className="  md:mr-8 md:ml-3" 
-      data-aos="fade-up"
-       data-aos-duration="1000" 
-      src={htmlIcon}
-      width={200}
-      height={100}
-      alt="JS Icon"
-    />
- <div className='shadow-3xl shadow-gray-500 p-5 mt-5  md:mt-0 '>
-      <h1 className="text-center md:text-left  text-4xl  bigmonitor:text-[2.875rem] text-gray-200 font-bold" data-aos="fade-up" data-aos-duration="1000">
-        HTML 
-      </h1>
-      <div className="flex items-center justify-center md:justify-start bigmonitor:mt-5 md:mt-2 mt-5 " data-aos="fade-up" data-aos-duration="1000">
-  <div className="text-white text-center text-[0.75rem] cpsize:text-[1rem] bigmonitor:text-[1.50rem] font-500 rounded-full  bg-gray-500 px-2" data-aos="fade-up" data-aos-duration="1000">
-    7 months of experience
+     <div className='mx-auto max-w-[80%] zz:max-w-[60%] frame skill-container bg-black shadow-3xl shadow-gray-500   rounded-xl' data-aos="fade-up" 
+        data-aos-duration="1000">
+  
+
+     <h3 className='text-white text-center font-bold px-[7px] pb-[7px] pt-[30px]' data-aos="fade-up" 
+        data-aos-duration="1000">FRONT-END DEVELOPMENT</h3>
+     <div className='flex flex-row flex-wrap  justify-center items-center gap-[24px]  p-[1em]'data-aos="fade-up" 
+        data-aos-duration="1000" >
+  <div className="bg1 flex flex-row items-center flex-wrap  justify-center bg-gray-500 px-[8px] py-1 gap-2 rounded-xl"  >
+    <Image className="img1 w-8 h-8 object-contain" src={htmlIcon} alt="HTML icon" />
+    <p className='font-bold flex items-center text-gray-200 text-center'>HTML</p>
+    
+  </div>
+
+  <div className="flex flex-row items-center flex-wrap justify-center bg-gray-500 px-[8px] py-1 gap-2 rounded-xl" data-aos="fade-up" 
+        data-aos-duration="1000">
+    <Image className="w-8 h-8 object-contain" src={cssIcon} alt="CSS icon" />
+    <p className='font-bold flex items-center text-gray-200 text-center'>CSS</p>
+  </div>
+
+  <div className="flex flex-row items-center flex-wrap justify-center bg-gray-500 px-[8px] py-1 gap-2 rounded-xl" data-aos="fade-up" 
+        data-aos-duration="1000">
+    <Image className="w-8 h-8 object-contain" src={jsIcon} alt="JavaScript icon" />
+    <p className='font-bold flex items-center text-gray-200 text-center'>JavaScript</p>
   </div>
 </div>
 
-      <p className="text-white mt-2 text-[0.75rem] cpsize:text-[1rem] text-left md:text-left bigmonitor:text-[1.50rem]"  data-aos="fade-up" data-aos-duration="1000">
-      I have a strong foundation in utilizing semantic HTML elements. I have the ability to create interfaces that are not only visually appealing but also user-friendly and I always strive to deliver well-structured and accessible web experiences.
-      </p>
-    
-    </div>
+
+
+
+
+
+
+
+<h3 className='text-white  mt-10 font-bold text-center p-[7px]' data-aos="fade-up" 
+        data-aos-duration="1000">BACK-END DEVELOPMENT</h3>
+<div className='flex flex-row flex-wrap justify-center items-center gap-[24px]  p-[1em]' >
+  <div className="flex flex-row items-center flex-wrap justify-center bg-gray-500 px-[8px] py-1 gap-2 rounded-xl" data-aos="fade-up" 
+        data-aos-duration="1000">
+    <Image className="w-8 h-8 object-contain" src={nodejs} alt="HTML icon" />
+    <p className='font-bold flex items-center text-gray-200 text-center'>Node.js</p>
   </div>
-  <div className="flex flex-col  md:flex-row-reverse items-center mt-10 justify-center ">
+
+  <div className="flex flex-row items-center flex-wrap justify-center bg-gray-500 px-[8px] py-1 gap-2 rounded-xl" data-aos="fade-up" 
+        data-aos-duration="1000">
+    <Image className="w-8 h-8 object-contain" src={firebase} alt="CSS icon" />
+    <p className='font-bold flex items-center text-gray-200 text-center'>Firebase</p>
+  </div>
+
+
  
-   <Image    
-       className='md:ml-5'
-      data-aos="fade-up" 
-      data-aos-duration="1000"  
-      src={cssIcon}
-      width={200}
-      height={100}
-      alt="CSS Icon"
-    />
-   
- <div className='shadow-3xl shadow-gray-500 p-5 mt-5 md:mt-0 '>
-      <h1 className="text-center md:text-left  text-4xl bigmonitor:text-[2.875rem] text-gray-200 font-bold" data-aos="fade-up" data-aos-duration="1000">
-        CSS 
-      </h1>
-      <div className="flex items-center justify-center md:justify-start md:mt-2 bigmonitor:mt-5 mt-5 " data-aos="fade-up" data-aos-duration="1000">
-  <div className="text-white text-[12px] cpsize:text-[1rem]  bigmonitor:text-[1.50rem] text-center font-500 rounded-full bg-gray-500 px-2" data-aos="fade-up" data-aos-duration="1000">
-    7 months of experience
-  </div>
 </div>
-
-      <p className="text-white mt-2 text-[0.75rem] cpsize:text-[1rem] text-left md:text-left bigmonitor:text-[1.50rem]" data-aos="fade-up" data-aos-duration="1000">
-      I have a solid understanding of styling and layout techniques, allowing me to create visually appealing web designs. Additionally, I have recently started exploring and implementing <b>Tailwind CSS</b> to enhance my productivity and create responsive designs more efficiently.
-      </p>
-    
-    </div>
+<h3 className='text-white  mt-10 font-bold text-center p-[7px]' data-aos="fade-up" 
+        data-aos-duration="1000">CURRENTLY LEARNING</h3>
+<div className='flex flex-row flex-wrap justify-center items-center gap-[24px]  px-[1em] pt-[1em] pb-[30px]' >
+  <div className="flex flex-row items-center flex-wrap justify-center bg-gray-500 px-[8px] py-1 gap-2 rounded-xl" data-aos="fade-up" 
+        data-aos-duration="1000">
+    <Image className="w-8 h-8 object-contain" src={nextjsIcon} alt="HTML icon" />
+    <p className='font-bold flex items-center text-gray-200 text-center'>Next.js</p>
   </div>
+
+  <div className="flex flex-row items-center flex-wrap justify-center bg-gray-500 px-[8px] py-1 gap-2 rounded-xl" data-aos="fade-up" 
+        data-aos-duration="1000">
+    <Image className="w-8 h-8 object-contain" src={tailwind} alt="CSS icon" />
+    <p className='font-bold flex items-center text-gray-200 text-center'>Tailwind CSS</p>
+  </div>
+  <div className="flex flex-row items-center flex-wrap justify-center bg-gray-500 px-[8px] py-1 gap-2 rounded-xl" data-aos="fade-up" 
+        data-aos-duration="1000">
+    <Image className="w-8 h-8 object-contain" src={typecsript} alt="CSS icon" />
+    <p className='font-bold flex items-center text-gray-200 text-center'>TypeScript</p>
+  </div>
+
  
-  <div className="flex flex-col  md:flex-row  items-center justify-center mt-10 ">
-   <Image    
-      className="  md:mr-8 md:ml-3 " 
-      data-aos="fade-up"
-       data-aos-duration="1000" 
-      src={jsIcon}
-      width={170}
-      height={100}
-      alt="JS Icon"
-    />
- <div className='shadow-3xl shadow-gray-500 p-5 mt-5 md:mt-0 '>
-      <h1 className="text-center md:text-left  text-4xl bigmonitor:text-[2.875rem] text-gray-200 font-bold" data-aos="fade-up" data-aos-duration="1000">
-        JavaScript 
-      </h1>
-      <div className="flex items-center justify-center md:justify-start bigmonitor:mt-5 md:mt-2 mt-5 " data-aos="fade-up" data-aos-duration="1000">
-  <div className="text-white text-[12px] cpsize:text-[1rem]  bigmonitor:text-[1.50rem] text-center font-500 rounded-full bg-gray-500 px-2" data-aos="fade-up" data-aos-duration="1000">
-    6 months of experience
-  </div>
 </div>
-
-      <p className="text-white mt-2 text-[12px] cpsize:text-[1rem] text-left md:text-left bigmonitor:text-[1.50rem]"  data-aos="fade-up" data-aos-duration="1000">
-      I have a solid understanding of JavaScript fundamentals and I am familiar with Node.js. I am actively exploring the possibilities of <b>Next.js</b> and <b>TypeScript</b> to further enhance my skills and broaden my expertise in web development.
-      </p>
-    
-    </div>
-  </div>
-  </div>
+     </div>
   
 
 

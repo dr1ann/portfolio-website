@@ -79,6 +79,13 @@ module.exports = {
       letterSpacing: {
         tightest: '-.070em',
       },
+      gridTemplateColumns: {
+        // Simple 16 column grid
+        'skills': 'repeat(auto-fit, 100px)',
+
+        // Complex site-specific column configuration
+       
+      },
       
     },
     

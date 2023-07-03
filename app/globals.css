@@ -21,20 +21,9 @@
 body {
   color: rgb(var(--foreground-rgb));
   background: transparent;
+  
 }
-/* .footer-class p {
-  font-size: 0.5rem;
-} */
-/* .description {
-  font-size: var(--fs-600);
-}
-@media (min-width: 1333px) {
-  :root {
-  --fs-600: 1.5rem;
- 
-  --fs-400: 1.5rem;
-  }
-} */
+
 #wae {
   color: rgb(157, 157, 168);
 text-align: center;
@@ -188,3 +177,153 @@ margin-top: 200px;
  
   transform: rotate(2deg);
  }
+ /* .skill-container {
+  position: relative;
+  pointer-events: none;
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  background-size: 30%;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.skill-container::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-image: url(Images/htmlicon.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 30%;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.skill-container:hover {
+  opacity: 0.5;
+}
+
+.skill-container:hover::before {
+  opacity: 1;
+}
+.skill-container:hover::after {
+  opacity: 1;
+}
+.skill-container:hover::after {
+  content: "7 months experience";
+  display: block;
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: white;
+  font-weight: bold;
+  font-size: 25px;
+  background-color: #6B7280;
+  border-radius: 0.75rem;
+  text-align: center;
+padding: 0 10px;
+}
+
+.bg1 {
+  pointer-events: auto;
+  cursor: pointer;
+  transition: 0.7s ease;
+}
+
+.bg1:hover .skill-container {
+  opacity: 1;
+} */
+
+/* .bg1:hover p,
+.bg1:hover .img1 {
+  display: none;
+}
+
+.bg1:hover:before {
+  content: "7 months experience";
+} */
+
+.frame {
+  background-position: right bottom;
+  background-repeat: no-repeat;
+  background-size:60%;
+  animation: image 8s infinite alternate;
+  background-origin: content-box;
+
+}
+
+@keyframes image {
+  0% {
+    background-image: url('Images/htmlicon.png');
+    
+  }
+  14% {
+    background-image: url('Images/cssicon.png');
+    
+  }
+  28% {
+    background-image: url('Images/jsicon.png');
+  }
+  42% {
+    background-image: url('Images/nodejs.png');
+  }
+  56% {
+    background-image: url('Images/firebase.png');
+  }
+  70.5% {
+    background-image: url('Images/nextjs.png');
+  }
+  84.5% {
+    background-image: url('Images/tailwind.png');
+  }
+  100% {
+    background-image: url('Images/typescript.png');
+  }
+ 
+}
+@media (min-width: 640px) {
+  .frame {
+    background-size: 45%; 
+  }
+}
+@media (min-width: 740px) {
+  .frame {
+    background-size: 40%; 
+  }
+}
+@media (min-width: 900px) {
+  .frame {
+    background-size: 35%; 
+  }
+}
+@media (min-width: 1200px) {
+  .frame {
+    background-size: 30%; 
+  }
+
+}
+@media (min-width: 1600px) {
+  .frame {
+    background-size: 25%; 
+  }
+}
+@media (min-width: 1990px) {
+  .frame {
+    background-size: 20%; 
+  }
+}
+@media (min-width: 2000px) {
+  .frame {
+    background-size: 20%; 
+ 
+  }
+}
+@media (min-width: 2500px) {
+  .frame {
+    background-size: 15%; 
+ 
+  }
+}
