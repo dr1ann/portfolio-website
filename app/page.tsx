@@ -8,7 +8,11 @@ import headerImg from './Images/name.png'
 import aboutFace from './Images/aboutFaceWhite.jpg'
 import backgroundImage from './Images/htmlicon.png';
 import htmlIcon from './Images/htmlicon.png'
+import namelogo from './Images/namelogo.png'
+import work from './Images/work.png'
+import address from './Images/address.png'
 import cssIcon from './Images/cssicon.png'
+import phone from './Images/phone.png'
 import jsIcon from './Images/jsicon.png'
 import nextjsIcon from './Images/nextjs.png'
 import bplanCert from './Images/bpcert.jpg'
@@ -241,7 +245,7 @@ export default function Page() {
       />
     </div>
  
-    <p className="text-left text-[0.75rem] cpsize:text-[1rem] mt-10 text-white shadow-3xl lg:mr-auto  shadow-gray-500 w-[80%] md:w-5/6 xl:mr-auto xl:ml-10  xl:w-[45%] xl:my-auto   p-6 mx-auto bigmonitor:text-[1.50rem]" data-aos="fade-up" data-aos-duration="1000">
+    <p className="text-left text-[0.75rem] cpsize:text-[1rem] mt-10 text-white shadow-3xl lg:mr-auto rounded-xl shadow-gray-500 w-[80%] md:w-5/6 xl:mr-auto xl:ml-10  xl:w-[45%] xl:my-auto   p-6 mx-auto bigmonitor:text-[1.50rem]" data-aos="fade-up" data-aos-duration="1000">
       Hello! I'm <span className="text-gray-200 font-bold">James Adrian A. Denoy</span>, a 17-year-old Grade 12 student currently residing in Brgy. Tambulilid, Ormoc City, Philippines. From a young age, I've had a deep fascination with computers and technology. I would spend hours exploring the intricacies of websites, wondering how they worked and what made them function.
       <br/><br/>
       As an aspiring software developer, I am driven by my passion for creating innovative solutions and bringing ideas to life through code. I am currently honing my skills in Web Development, where I am gaining valuable knowledge in various programming languages and development tools.
@@ -254,7 +258,7 @@ export default function Page() {
 SKILLS <span className='text-gray-500'> ⸻ </span>
 
      </h1>
-    <div className="flow-root p-5 ">
+    <div className="flow-root ">
      <div className='mx-auto max-w-[80%] zz:max-w-[60%] frame skill-container bg-black shadow-3xl shadow-gray-500   rounded-xl' data-aos="fade-up" 
         data-aos-duration="1000">
   
@@ -352,13 +356,13 @@ ACHIEVEMENTS <span className='text-gray-500'> ⸻ </span>
    
  
     
-   <div className='shadow-3xl shadow-gray-500 p-5 mt-5 md:mt-0'>
-      <h1 className="text-center mb-4 text-[1rem] med1small:text-xl cpsize:text-3xl sm:text-4xl bigmonitor:text-[2.875rem] text-gray-200 font-bold" data-aos="fade-up" data-aos-duration="1000">
+   <div className='shadow-3xl shadow-gray-500 rounded-xl p-5 mt-5 md:mt-0'>
+      <h1 className="text-center mb-4 text-[1.25rem] cpsize:text-3xl sm:text-4xl bigmonitor:text-[2.875rem] text-gray-200 font-bold" data-aos="fade-up" data-aos-duration="1000">
       BUSINESS PLAN
       </h1>
     
 
-      <p className="text-white mt-2 text-[0.625rem] med1small:text-[0.75rem] cpsize:text-[1rem] text-left md:text-left bigmonitor:text-[1.50rem]" data-aos="fade-up" data-aos-duration="1000">
+      <p className="text-white mt-2 text-[0.75rem] cpsize:text-[1rem] text-left md:text-left bigmonitor:text-[1.50rem]" data-aos="fade-up" data-aos-duration="1000">
       Our participation in the business plan competition marked our team's first collaborative website development project. We created an innovative platform that bridges the gap between service seekers and providers, leveraging our diverse skills and fostering teamwork. This transformative experience fueled our growth as developers and inspired us to continue making an impact in the digital landscape.
       </p>
     
@@ -376,13 +380,13 @@ ACHIEVEMENTS <span className='text-gray-500'> ⸻ </span>
 
 
 
- <div className='shadow-3xl shadow-gray-500 p-5 mt-5 md:mt-0 '>
-      <h1 className="text-center mb-4 text-[1rem] med1small:text-xl cpsize:text-3xl sm:text-4xl bigmonitor:text-[2.875rem] text-gray-200 font-bold" data-aos="fade-up" data-aos-duration="1000">
+ <div className='shadow-3xl shadow-gray-500 p-5 mt-5 md:mt-0 rounded-xl'>
+      <h1 className="text-center mb-4 text-[1.25rem] cpsize:text-3xl sm:text-4xl bigmonitor:text-[2.875rem] text-gray-200 font-bold" data-aos="fade-up" data-aos-duration="1000">
         CODE FEST 
       </h1>
     
 
-      <p className="text-white mt-2 text-[0.625rem] med1small:text-[0.75rem] cpsize:text-[1rem] text-left md:text-left bigmonitor:text-[1.50rem]" data-aos="fade-up" data-aos-duration="1000">
+      <p className="text-white mt-2 text-[0.75rem] cpsize:text-[1rem] text-left md:text-left bigmonitor:text-[1.50rem]" data-aos="fade-up" data-aos-duration="1000">
       Our participation in the Code Fest coding competition marked our team's exciting debut in the world of competitive programming. As a front-end developer, I contributed to the development of a sophisticated grading system. This experience allowed me to showcase my skills, collaborate with talented teammates, and embrace the challenges of real-world coding projects.
       </p>
     
@@ -415,7 +419,7 @@ ACHIEVEMENTS <span className='text-gray-500'> ⸻ </span>
    
  
     
-   <div className='shadow-3xl shadow-gray-500 p-5 mt-6 md:mt-0'>
+   <div className='shadow-3xl shadow-gray-500 p-5 mt-6 md:mt-0 rounded-xl'>
       <h1 className="text-left  text-3xl cpsize:text-4xl bigmonitor:text-[2.875rem] text-gray-200 font-bold" data-aos="fade-up" data-aos-duration="1000">
       FasTrack
       </h1>
@@ -438,14 +442,14 @@ ACHIEVEMENTS <span className='text-gray-500'> ⸻ </span>
       
       </div>
 
-      <p className="text-white mt-2 text-[0.625rem] med1small:text-[0.75rem] cpsize:text-[1rem] text-left md:text-left bigmonitor:text-[1.50rem]" data-aos="fade-up" data-aos-duration="1000">
+      <p className="text-white mt-2 text-[0.75rem] cpsize:text-[1rem] text-left md:text-left bigmonitor:text-[1.50rem]" data-aos="fade-up" data-aos-duration="1000">
       FasTrack is a dynamic and user-friendly online e-commerce platform designed exclusively for residents of Ormoc City. Developed over a span of 7 months, this feature-rich website incorporates a robust backend powered by <b>Node.js</b> and utilizes <b>Firebase</b> for seamless database integration.
       </p>
-      <div className="flex items-center justify-start mt-4">
+      <div className="flex items-center justify-start mt-4" data-aos="fade-up" data-aos-duration="1000">
      
-     <a href="https://dr1ann.github.io/fastrack-e-commerce/" data-aos="fade-up" data-aos-duration="1000" target="_blank" rel="noopener noreferrer" className="text-white text-[0.75rem] cpsize:text-[1rem] bigmonitor:text-[1.50rem] bg-gray-500 animate-custom-bounce  rounded-2xl px-2 py-2 font-bold" >VISIT PROJECT 
+     <a href="https://dr1ann.github.io/fastrack-e-commerce/"  target="_blank" rel="noopener noreferrer" className="text-white text-[0.75rem] cpsize:text-[1rem] bigmonitor:text-[1.50rem] bg-gray-500 animate-custom-bounce  rounded-2xl px-2 py-2 font-bold" >VISIT PROJECT 
    </a >
-    <a href="https://github.com/dr1ann/fastrack-e-commerce" target="_blank" rel="noopener noreferrer" className="icon-link"  data-aos="fade-up" data-aos-duration="1000">
+    <a href="https://github.com/dr1ann/fastrack-e-commerce" target="_blank" rel="noopener noreferrer" className="icon-link"  >
        <FontAwesomeIcon icon={faGithub} className="text-black m-2 inline-block text-xl cpsize:text-2xl bigmonitor:text-[2rem] animate-custom-bounce bg-gray-500  rounded-full p-2 ml-4" />
        </a>
    </div>
@@ -469,38 +473,57 @@ ACHIEVEMENTS <span className='text-gray-500'> ⸻ </span>
     <h1 className="text-center mt-32 mb-10 text-[1.375rem] medsmall:text-[1.5rem] cpsize:text-[2.25rem] font-bold  text-white animate-pulse" data-aos="fade-up" data-aos-duration="1000" id='contactPage'>
 <span className='text-gray-500' > ⸻ </span>CONTACT<span className='text-gray-500'> ⸻ </span>
     </h1>
-  <div className='flex flex-wrap flex-row justify-center items-center gap-[2rem] px-[3rem] conicon:px-[5rem] contact:px-[2rem]'>
-  <div className='flex flex-col items-center justify-center' data-aos="fade-up"
-       data-aos-duration="1000" >
-  <a href="https://web.facebook.com/jamesdenoy12/" target="_blank" rel="noopener noreferrer" className="icon-link" >
+
+  
+  <div className='grid grid-cols-skills place-content-center place-items-center px-[1rem] '>
+    
+
+
+     <Image
+      data-aos="fade-up" data-aos-duration="1000"
+      className='hidden namelogo:block'
+      src={namelogo}
+      alt='CONTACT icon'
+
+
+     />
+  
+<div className='flex flex-col justify-center items-center shadow-3xl shadow-gray-500 px-[2rem] py-[1rem] w-[80%] forcontact:w-full rounded-xl'  data-aos="fade-up" data-aos-duration="1000">
+<h1 className='text-gray-200 text-center text-[1.75rem] font-bold mb-10 '>Let's Work Together!</h1>
+<div className='flex flex-row gap-2 justify-center items-center'>
+  <Image className='h-8 w-8  p-1 object-contain bg-gray-500 rounded-full'
+  src={address}
+  alt='ADDRESS icon'
+
+  />
+  <p className='text-white text-center'>Leyte, Philippines</p>
+</div>
+<div className='flex flex-row  gap-2 justify-center items-center mt-4 mb-10'>
+  <Image className='h-8 w-8  p-1 object-contain bg-gray-500 rounded-full'
+  src={phone}
+  alt='ADDRESS icon'
+
+  />
+  <p className='text-white text-center'>+63 977 713 8455</p>
+</div>
+<div className='flex flex-row justify-center items-center'>
+<a href="https://web.facebook.com/jamesdenoy12/" target="_blank" rel="noopener noreferrer" className="icon-link" >
   <FontAwesomeIcon icon={faFacebook} className="text-black m-2 text-3xl animate-custom-bounce bg-gray-500 rounded-full p-2 "  />
- 
 </a>
-<span className='text-white bg-gray-500 rounded-full px-2'>Facebook</span>
-</div>
-<div className='flex flex-col items-center justify-center' data-aos="fade-up"
-       data-aos-duration="1000" >
-  <a href="https://web.facebook.com/jamesdenoy12/" target="_blank" rel="noopener noreferrer" className="icon-link" >
-  <FontAwesomeIcon icon={faInstagram} className="text-black m-2 text-3xl animate-custom-bounce bg-gray-500 rounded-full p-2 "  />
- 
-</a>
-<span className='text-white bg-gray-500 px-2 rounded-full'>Instagram</span>
-</div>
-<div className='flex flex-col items-center justify-center mr-[10px]' data-aos="fade-up"
-       data-aos-duration="1000" >
-  <a href="https://web.facebook.com/jamesdenoy12/" target="_blank" rel="noopener noreferrer" className="icon-link" >
-  <FontAwesomeIcon icon={faGithub} className="text-black m-2 text-3xl animate-custom-bounce bg-gray-500 rounded-full p-2 "  />
- 
-</a>
-<span className='text-white bg-gray-500 px-2 rounded-full'>Github</span>
-</div>
-<div className='flex flex-col items-center justify-center' data-aos="fade-up"
-       data-aos-duration="1000" >
-  <a href="https://web.facebook.com/jamesdenoy12/" target="_blank" rel="noopener noreferrer" className="icon-link" >
-  <FontAwesomeIcon icon={faEnvelope} className="text-black m-2 text-3xl animate-custom-bounce bg-gray-500 rounded-full p-2 "  />
- 
-</a>
-<span className='text-white rounded-full bg-gray-500 px-2'>Email</span>
+
+    <a href="https://www.instagram.com/dr1annnnnnn/" target="_blank" rel="noopener noreferrer" className="icon-link" >
+    <FontAwesomeIcon icon={faInstagram} className="text-black m-2  text-[1.906rem] animate-custom-bounce  bg-gray-500  rounded-full p-2" />
+    </a>
+    <a href="https://github.com/dr1ann" target="_blank" rel="noopener noreferrer" className="icon-link"  >
+    <FontAwesomeIcon icon={faGithub} className="text-black m-2 text-3xl animate-custom-bounce bg-gray-500  rounded-full p-2" />
+    </a>
+    <a href="mailto:jamesdenoy56@gmail.com" target="_blank" rel="noopener noreferrer" className="icon-link"  >
+    <FontAwesomeIcon icon={faEnvelope} className="text-black  text-forghIcon animate-custom-bounce  m-2 bg-gray-500 rounded-full p-2" />
+
+    </a>
+
+    </div>
+
 </div>
   </div>
  

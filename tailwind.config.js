@@ -66,7 +66,9 @@ module.exports = {
         med1small:'329px',
         jsicon:'315px',
         conicon:'419px',
-        contact: '483px'
+        contact: '483px',
+        namelogo: '732px',
+        forcontact: '375px'
       },
       spacing: {
         '1stcustom': '10vh',
@@ -80,8 +82,8 @@ module.exports = {
         tightest: '-.070em',
       },
       gridTemplateColumns: {
-        // Simple 16 column grid
-        'skills': 'repeat(auto-fit, 100px)',
+        
+        'skills': 'repeat(auto-fit, 350px)',
 
         // Complex site-specific column configuration
        
