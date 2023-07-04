@@ -12,6 +12,8 @@ import namelogo from './Images/namelogo.png'
 import work from './Images/work.png'
 import address from './Images/address.png'
 import cssIcon from './Images/cssicon.png'
+import glitched from './Images/glitched.gif'
+import glitchedabout from './Images/newabotimg.gif'
 import phone from './Images/phone.png'
 import jsIcon from './Images/jsicon.png'
 import nextjsIcon from './Images/nextjs.png'
@@ -175,9 +177,9 @@ export default function Page() {
       <div className="h-screen w-screen flex justify-between items-center " id='homepage' >
         
   <Image
-    className="float-left mb-24 hidden sm:block sm:w-2/4 lg:w-2/5 ml-auto" data-aos="fade-up" data-aos-duration="1000"
+    className=" float-left mb-24 hidden sm:block sm:w-2/4 lg:w-2/5 ml-auto" data-aos="fade-up" data-aos-duration="1000"
     
-    src={profilePic}
+    src={glitched}
    
     alt="Picture of the author"
   />
@@ -239,7 +241,7 @@ export default function Page() {
     <div  className="xl:ml-auto  cc:mt-2 xx:mt-0 zz:mt-4  xl:my-auto">
       <Image 
         className="shadow-3xl   w-[75%] sm:w-[70%] md:w-[60%] aboutpic:w-[55%] xl:my-auto lg:w-[35rem] xl:w-[30rem] mx-auto  bigmonitor:w-[40rem] shadow-gray-500 rounded-xl "  
-        src={aboutImg}
+        src={glitchedabout}
         
         alt="Picture of the author"
       />
@@ -475,21 +477,21 @@ ACHIEVEMENTS <span className='text-gray-500'> ⸻ </span>
     </h1>
 
   
-  <div className='grid grid-cols-skills place-content-center place-items-center px-[1rem] '>
+  <div className='grid grid-cols-skills place-content-center gap-4 place-items-center px-[1rem] '>
     
 
 
      <Image
       data-aos="fade-up" data-aos-duration="1000"
-      className='hidden namelogo:block'
+      className='hidden namelogo:block object-cover w-full'
       src={namelogo}
       alt='CONTACT icon'
 
 
      />
   
-<div className='flex flex-col justify-center items-center shadow-3xl shadow-gray-500 px-[2rem] py-[1rem] w-[80%] forcontact:w-full rounded-xl'  data-aos="fade-up" data-aos-duration="1000">
-<h1 className='text-gray-200 text-center text-[1.75rem] font-bold mb-10 '>Let's Work Together!</h1>
+<div className='flex flex-col justify-center items-center shadow-3xl shadow-gray-500 px-[1.75rem] py-[1rem] w-[80%] forcontact:w-full rounded-xl'  data-aos="fade-up" data-aos-duration="1000">
+<h1 className='text-gray-200 text-center text-[1.75rem] uppercase font-bold mb-10 '>Get in Touch</h1>
 <div className='flex flex-row gap-2 justify-center items-center'>
   <Image className='h-8 w-8  p-1 object-contain bg-gray-500 rounded-full'
   src={address}

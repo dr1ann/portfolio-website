@@ -70,10 +70,12 @@ margin-top: 200px;
   margin: 0 -.25rem;
   padding: 0 .25rem;
   transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+  border-radius: 0.75rem;
 }
 .header-hover a:hover {
   box-shadow: inset 100px 0 0 0 #6B7280;
   color: white;
+  border-radius: 0.75rem;
 }
 
 
@@ -327,59 +329,7 @@ padding: 0 10px;
  
   }
 }
-/* .bg1 {
-  position: relative;	
-	
-	transition: all 500ms cubic-bezier(0.77, 0, 0.175, 1);	
-	cursor: pointer;
-	user-select: none;
-}
-.bg1:before, .bg1:after {
-	content: '';
-	position: absolute;	
-	transition: inherit;
-	z-index: -1;
-}
-.bg1:hover {
 
-	transition-delay: .5s;
-}
-
-.bg1:hover:before {
-	transition-delay: 0s;
-}
-
-.bg1:hover:after {
-
-	transition-delay: .35s;
-}
-.from-center:before {
-	top: 0;
-	left: 50%;
-	height: 100%;
-	width: 0;
-	border: 1px solid var(--inv);
-	border-left: 0;
-	border-right: 0;
-}
-
-.from-center:after {
-	bottom: 0;
-	left: 0;
-	height: 0;
-	width: 100%;
-	background: var(--inv);
-}
-
-.from-center:hover:before {
-	left: 0;
-	width: 100%;
-}
-
-.from-center:hover:after {
-	top: 0;
-	height: 100%;
-} */
 div[data-title]::after {
   content: attr(data-title);
   position: absolute;
@@ -426,3 +376,4 @@ div[data-title1]:hover::after {
   opacity: 1;
   background-color: #6B7280;
 }
+
