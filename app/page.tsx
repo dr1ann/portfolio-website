@@ -234,7 +234,7 @@ export default function Page() {
    
     <div  className="xl:ml-auto  cc:mt-2 xx:mt-0 zz:mt-4  xl:my-auto">
       <Image 
-        className="shadow-3xl   w-[75%] sm:w-[70%] md:w-[60%] aboutpic:w-[55%] xl:my-auto lg:w-[35rem] xl:w-[30rem] mx-auto  bigmonitor:w-[40rem] shadow-gray-500 rounded-xl transform transition duration-500 hover:scale-125"  
+        className="shadow-3xl   w-[75%] sm:w-[70%] md:w-[60%] aboutpic:w-[55%] xl:my-auto lg:w-[35rem] xl:w-[30rem] mx-auto  bigmonitor:w-[40rem] shadow-gray-500 rounded-xl "  
         src={aboutImg}
         
         alt="Picture of the author"
@@ -263,20 +263,21 @@ SKILLS <span className='text-gray-500'> ⸻ </span>
         data-aos-duration="1000">FRONT-END DEVELOPMENT</h3>
      <div className='flex flex-row flex-wrap  justify-center items-center gap-[24px]  p-[1em]'data-aos="fade-up" 
         data-aos-duration="1000" >
-  <div className="bg1 flex flex-row items-center flex-wrap  justify-center bg-gray-500 px-[8px] py-1 gap-2 rounded-xl"  >
+   <div className="bg1 relative flex flex-row items-center flex-wrap justify-center bg-gray-500 px-[8px] py-1 gap-2 rounded-xl cursor-pointer" data-aos="fade-up" 
+        data-aos-duration="1000" data-title="7 months experience" >
     <Image className="img1 w-8 h-8 object-contain" src={htmlIcon} alt="HTML icon" />
-    <p className='font-bold flex items-center text-gray-200 text-center'>HTML</p>
-    
+    <p className='font-bold flex items-center text-gray-200 text-center '>HTML</p>
   </div>
 
-  <div className="flex flex-row items-center flex-wrap justify-center bg-gray-500 px-[8px] py-1 gap-2 rounded-xl" data-aos="fade-up" 
-        data-aos-duration="1000">
+
+  <div className="flex flex-row relative items-center flex-wrap justify-center  bg-gray-500 px-[8px] py-1 gap-2 rounded-xl cursor-pointer" data-aos="fade-up" 
+        data-aos-duration="1000" data-title="7 months experience">
     <Image className="w-8 h-8 object-contain" src={cssIcon} alt="CSS icon" />
     <p className='font-bold flex items-center text-gray-200 text-center'>CSS</p>
   </div>
 
-  <div className="flex flex-row items-center flex-wrap justify-center bg-gray-500 px-[8px] py-1 gap-2 rounded-xl" data-aos="fade-up" 
-        data-aos-duration="1000">
+  <div className="flex flex-row items-center flex-wrap justify-center bg-gray-500 px-[8px] py-1 gap-2 rounded-xl cursor-pointer" data-aos="fade-up" 
+        data-aos-duration="1000" data-title1="6 months experience">
     <Image className="w-8 h-8 object-contain" src={jsIcon} alt="JavaScript icon" />
     <p className='font-bold flex items-center text-gray-200 text-center'>JavaScript</p>
   </div>
@@ -291,15 +292,16 @@ SKILLS <span className='text-gray-500'> ⸻ </span>
 
 <h3 className='text-white  mt-10 font-bold text-center p-[7px]' data-aos="fade-up" 
         data-aos-duration="1000">BACK-END DEVELOPMENT</h3>
-<div className='flex flex-row flex-wrap justify-center items-center gap-[24px]  p-[1em]' >
-  <div className="flex flex-row items-center flex-wrap justify-center bg-gray-500 px-[8px] py-1 gap-2 rounded-xl" data-aos="fade-up" 
-        data-aos-duration="1000">
+<div className='flex flex-row flex-wrap justify-center items-center gap-[24px]  p-[1em]' data-aos="fade-up" 
+        data-aos-duration="1000" >
+  <div className="flex flex-row items-center flex-wrap justify-center bg-gray-500 px-[8px] py-1 gap-2 rounded-xl cursor-pointer" data-aos="fade-up" 
+        data-aos-duration="1000"  data-title1="40 days experience">
     <Image className="w-8 h-8 object-contain" src={nodejs} alt="HTML icon" />
     <p className='font-bold flex items-center text-gray-200 text-center'>Node.js</p>
   </div>
 
-  <div className="flex flex-row items-center flex-wrap justify-center bg-gray-500 px-[8px] py-1 gap-2 rounded-xl" data-aos="fade-up" 
-        data-aos-duration="1000">
+  <div className="flex flex-row items-center flex-wrap justify-center bg-gray-500 px-[8px] py-1 gap-2 rounded-xl cursor-pointer" data-aos="fade-up" 
+        data-aos-duration="1000"  data-title1="6 months experience">
     <Image className="w-8 h-8 object-contain" src={firebase} alt="CSS icon" />
     <p className='font-bold flex items-center text-gray-200 text-center'>Firebase</p>
   </div>
@@ -309,20 +311,18 @@ SKILLS <span className='text-gray-500'> ⸻ </span>
 </div>
 <h3 className='text-white  mt-10 font-bold text-center p-[7px]' data-aos="fade-up" 
         data-aos-duration="1000">CURRENTLY LEARNING</h3>
-<div className='flex flex-row flex-wrap justify-center items-center gap-[24px]  px-[1em] pt-[1em] pb-[30px]' >
-  <div className="flex flex-row items-center flex-wrap justify-center bg-gray-500 px-[8px] py-1 gap-2 rounded-xl" data-aos="fade-up" 
-        data-aos-duration="1000">
+<div className='flex flex-row flex-wrap justify-center items-center gap-[24px]  px-[1em] pt-[1em] pb-[30px]'data-aos="fade-up" 
+        data-aos-duration="1000" >
+  <div className="flex flex-row items-center flex-wrap justify-center bg-gray-500 px-[8px] py-1 gap-2 rounded-xl" >
     <Image className="w-8 h-8 object-contain" src={nextjsIcon} alt="HTML icon" />
     <p className='font-bold flex items-center text-gray-200 text-center'>Next.js</p>
   </div>
 
-  <div className="flex flex-row items-center flex-wrap justify-center bg-gray-500 px-[8px] py-1 gap-2 rounded-xl" data-aos="fade-up" 
-        data-aos-duration="1000">
+  <div className="flex flex-row items-center flex-wrap justify-center bg-gray-500 px-[8px] py-1 gap-2 rounded-xl" >
     <Image className="w-8 h-8 object-contain" src={tailwind} alt="CSS icon" />
     <p className='font-bold flex items-center text-gray-200 text-center'>Tailwind CSS</p>
   </div>
-  <div className="flex flex-row items-center flex-wrap justify-center bg-gray-500 px-[8px] py-1 gap-2 rounded-xl" data-aos="fade-up" 
-        data-aos-duration="1000">
+  <div className="flex flex-row items-center flex-wrap justify-center bg-gray-500 px-[8px] py-1 gap-2 rounded-xl" >
     <Image className="w-8 h-8 object-contain" src={typecsript} alt="CSS icon" />
     <p className='font-bold flex items-center text-gray-200 text-center'>TypeScript</p>
   </div>
