@@ -52,7 +52,7 @@ export default function Page() {
   return (
     <div className='bg-black'>
       <Head>
-        <title>Create Next Responsive Navbar With Tailwind CSS</title>
+        <title>Portfolio</title>
       
 
         
