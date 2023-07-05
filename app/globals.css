@@ -71,11 +71,13 @@ margin-top: 200px;
   padding: 0 .25rem;
   transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
   border-radius: 0.75rem;
+  padding:5px;
 }
 .header-hover a:hover {
   box-shadow: inset 100px 0 0 0 #6B7280;
   color: white;
   border-radius: 0.75rem;
+  padding:5px;
 }
 
 
