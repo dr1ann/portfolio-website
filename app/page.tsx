@@ -174,10 +174,10 @@ export default function Page() {
         </div>
       </nav>
       </Headroom>
-      <div className="h-screen w-screen flex justify-between items-center " id='homepage' >
+      <div className="h-screen w-screen flex flex-row justify-center items-center " id='homepage' >
         
   <Image
-    className=" float-left mb-24 hidden sm:block sm:w-2/4 lg:w-2/5 ml-auto" data-aos="fade-up" data-aos-duration="1000"
+    className=" float-left mb-[9rem] hidden sm:block sm:w-2/4 lg:w-2/5  ml-auto" data-aos="fade-up" data-aos-duration="1000"
     
     src={glitched}
    

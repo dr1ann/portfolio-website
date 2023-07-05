@@ -84,7 +84,7 @@ module.exports = {
       gridTemplateColumns: {
         
         'skills': 'repeat(auto-fit, 350px)',
-
+        'homep': 'repeat(auto-fit, 500px)',
         // Complex site-specific column configuration
        
       },
