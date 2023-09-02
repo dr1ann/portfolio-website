@@ -349,12 +349,12 @@ ACHIEVEMENTS <span className='text-gray-500'> ⸻ </span>
  
     
    <div className='shadow-3xl shadow-gray-500 rounded-xl p-5 mt-5 md:mt-0'>
-      <h1 className="text-center mb-4 text-[1.25rem] cpsize:text-3xl sm:text-4xl bigmonitor:text-[2.875rem] text-gray-200 font-bold" data-aos="fade-up" data-aos-duration="1000">
+      <h1 className="text-center mb-4 text-[1.25rem] cpsize:text-3xl sm:text-4xl bigmonitor:text-[2.875rem] text-gray-200 font-bold">
       BUSINESS PLAN
       </h1>
     
 
-      <p className="text-white mt-2 text-[0.75rem] cpsize:text-[1rem] text-left md:text-left bigmonitor:text-[1.50rem]" data-aos="fade-up" data-aos-duration="1000">
+      <p className="text-white mt-2 text-[0.75rem] cpsize:text-[1rem] text-left md:text-left bigmonitor:text-[1.50rem]">
       Our participation in the business plan competition marked our team's first collaborative website development project. We created an innovative platform that bridges the gap between service seekers and providers, leveraging our diverse skills and fostering teamwork. This transformative experience fueled our growth as developers and inspired us to continue making an impact in the digital landscape.
       </p>
     
@@ -373,12 +373,12 @@ ACHIEVEMENTS <span className='text-gray-500'> ⸻ </span>
 
 
  <div className='shadow-3xl shadow-gray-500 p-5 mt-5 md:mt-0 rounded-xl'>
-      <h1 className="text-center mb-4 text-[1.25rem] cpsize:text-3xl sm:text-4xl bigmonitor:text-[2.875rem] text-gray-200 font-bold" data-aos="fade-up" data-aos-duration="1000">
+      <h1 className="text-center mb-4 text-[1.25rem] cpsize:text-3xl sm:text-4xl bigmonitor:text-[2.875rem] text-gray-200 font-bold">
         CODE FEST 
       </h1>
     
 
-      <p className="text-white mt-2 text-[0.75rem] cpsize:text-[1rem] text-left md:text-left bigmonitor:text-[1.50rem]" data-aos="fade-up" data-aos-duration="1000">
+      <p className="text-white mt-2 text-[0.75rem] cpsize:text-[1rem] text-left md:text-left bigmonitor:text-[1.50rem]">
       Our participation in the Code Fest coding competition marked our team's exciting debut in the world of competitive programming. As a front-end developer, I contributed to the development of a sophisticated grading system. This experience allowed me to showcase my skills, collaborate with talented teammates, and embrace the challenges of real-world coding projects.
       </p>
     
@@ -398,12 +398,13 @@ ACHIEVEMENTS <span className='text-gray-500'> ⸻ </span>
     </h1>
 
     <div className='max-w-[80%] mx-auto'>
-     <div className="flex flex-col xx:flex-row items-center justify-center mt-10" data-aos="fade-up" data-aos-duration="1000">
+     <div className="flex flex-col xx:flex-row items-center justify-center mt-10" >
  
    
    
       <Image    
         className="mb-2 md:mb-8 xx:mb-0 xx:mr-8 shadow-3xl  w-[25rem] shadow-gray-500 object-cover rounded-xl " 
+        data-aos="fade-up" data-aos-duration="1000"
         src={projThumbnail}
       
         alt="JS Icon"
@@ -411,8 +412,8 @@ ACHIEVEMENTS <span className='text-gray-500'> ⸻ </span>
    
  
     
-   <div className='shadow-3xl shadow-gray-500 p-5 mt-6 md:mt-0 rounded-xl'>
-      <h1 className="text-left  text-3xl cpsize:text-4xl bigmonitor:text-[2.875rem] text-gray-200 font-bold" data-aos="fade-up" data-aos-duration="1000">
+   <div className='shadow-3xl shadow-gray-500 p-5 mt-6 md:mt-0 rounded-xl'  data-aos="fade-up" data-aos-duration="1000">
+      <h1 className="text-left  text-3xl cpsize:text-4xl bigmonitor:text-[2.875rem] text-gray-200 font-bold">
       FasTrack
       </h1>
       <>
@@ -434,10 +435,10 @@ ACHIEVEMENTS <span className='text-gray-500'> ⸻ </span>
       
       </>
 
-      <p className="text-white mt-2 text-[0.75rem] cpsize:text-[1rem] text-left md:text-left bigmonitor:text-[1.50rem]" data-aos="fade-up" data-aos-duration="1000">
+      <p className="text-white mt-2 text-[0.75rem] cpsize:text-[1rem] text-left md:text-left bigmonitor:text-[1.50rem]">
       FasTrack is a dynamic and user-friendly online e-commerce platform designed exclusively for residents of Ormoc City. This was our research project in Senior High School.
       </p>
-      <div className="flex items-center justify-start mt-4" data-aos="fade-up" data-aos-duration="1000">
+      <div className="flex items-center justify-start mt-4" >
      
      <a href="https://dr1ann.github.io/fastrack-e-commerce/"  target="_blank" rel="noopener noreferrer" className="text-white text-[0.75rem] cpsize:text-[1rem] bigmonitor:text-[1.50rem] bg-gray-500 animate-custom-bounce  rounded-2xl px-2 py-2 font-bold" >VISIT PROJECT 
    </a >
@@ -458,12 +459,13 @@ ACHIEVEMENTS <span className='text-gray-500'> ⸻ </span>
 
     {/* second project */}
   <div className='max-w-[80%] mx-auto'>
-     <div className="flex flex-col xx:flex-row-reverse items-center justify-center mt-10" data-aos="fade-up" data-aos-duration="1000">
+     <div className="flex flex-col xx:flex-row-reverse items-center justify-center mt-10" >
  
    
    
       <Image    
-        className="mb-2 md:mb-8 xx:mb-0 xx:ml-8 shadow-3xl  w-[25rem] shadow-gray-500 object-cover rounded-xl " 
+        className="mb-2 md:mb-8 xx:mb-0 xx:ml-8 shadow-3xl  w-[25rem] shadow-gray-500 object-cover rounded-xl" 
+        data-aos="fade-up" data-aos-duration="1000"
         src={secondprojThumbnail}
       
         alt="JS Icon"
@@ -471,8 +473,8 @@ ACHIEVEMENTS <span className='text-gray-500'> ⸻ </span>
    
  
     
-   <div className='shadow-3xl shadow-gray-500 p-5 mt-6 md:mt-0 rounded-xl'>
-      <h1 className="text-left  text-3xl cpsize:text-4xl bigmonitor:text-[2.875rem] text-gray-200 font-bold" data-aos="fade-up" data-aos-duration="1000">
+   <div className='shadow-3xl shadow-gray-500 p-5 mt-6 md:mt-0 rounded-xl' data-aos="fade-up" data-aos-duration="1000">
+      <h1 className="text-left  text-3xl cpsize:text-4xl bigmonitor:text-[2.875rem] text-gray-200 font-bold" >
       Cinemania
       </h1>
       <>
@@ -494,10 +496,10 @@ ACHIEVEMENTS <span className='text-gray-500'> ⸻ </span>
       
       </>
 
-      <p className="text-white mt-2 text-[0.75rem] cpsize:text-[1rem] text-left md:text-left bigmonitor:text-[1.50rem]" data-aos="fade-up" data-aos-duration="1000">
+      <p className="text-white mt-2 text-[0.75rem] cpsize:text-[1rem] text-left md:text-left bigmonitor:text-[1.50rem]" >
       Cinemania is an innovative and user-friendly website that harnesses the power of the TMDB (The Movie Database) API to provide users with a comprehensive and interactive platform for exploring the world of cinema and famous personalities.
       </p>
-      <div className="flex items-center justify-start mt-4" data-aos="fade-up" data-aos-duration="1000">
+      <div className="flex items-center justify-start mt-4" >
      
      <a href="https://cinemania-hub.vercel.app/"  target="_blank" rel="noopener noreferrer" className="text-white text-[0.75rem] cpsize:text-[1rem] bigmonitor:text-[1.50rem] bg-gray-500 animate-custom-bounce  rounded-2xl px-2 py-2 font-bold" >VISIT PROJECT 
    </a >
@@ -530,12 +532,12 @@ ACHIEVEMENTS <span className='text-gray-500'> ⸻ </span>
     </h1>
 
   
-  <div className='grid grid-cols-skills place-content-center gap-4 place-items-center px-[1rem] '>
+  <div className='grid grid-cols-skills place-content-center gap-4 place-items-center px-[1rem]' data-aos="fade-up" data-aos-duration="1000">
     
 
 
      <Image
-      data-aos="fade-up" data-aos-duration="1000"
+      
       className='hidden lg:block object-cover w-full'
       src={namelogo}
       alt='CONTACT icon'
@@ -543,7 +545,7 @@ ACHIEVEMENTS <span className='text-gray-500'> ⸻ </span>
 
      />
   
-<div className='flex flex-col justify-center items-center shadow-3xl shadow-gray-500 px-[1.75rem] py-[1rem] w-[80%] forcontact:w-full rounded-xl'  data-aos="fade-up" data-aos-duration="1000">
+<div className='flex flex-col justify-center items-center shadow-3xl shadow-gray-500 px-[1.75rem] py-[1rem] w-[80%] forcontact:w-full rounded-xl'>
 <h1 className='text-gray-200 text-center text-[1.75rem] uppercase font-bold mb-10 '>Get in Touch</h1>
 <div className='flex flex-row gap-2 justify-center items-center'>
   <Image className='h-8 w-8  p-1 object-contain bg-gray-500 rounded-full'
