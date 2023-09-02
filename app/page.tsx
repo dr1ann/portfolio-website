@@ -1,50 +1,39 @@
 'use client'
+// External Libraries
 import Head from 'next/head';
 import { Link as ScrollLink, animateScroll as scroll } from 'react-scroll';
 import { useState, useEffect } from 'react';
 import Image from 'next/image';
-import profilePic from './Images/newdp.png'
-import headerImg from './Images/name.png'
-import aboutFace from './Images/aboutFaceWhite.jpg'
-import backgroundImage from './Images/htmlicon.png';
-import htmlIcon from './Images/htmlicon.png'
-import namelogo from './Images/namelogo.png'
-import work from './Images/work.png'
-import address from './Images/address.png'
-import cssIcon from './Images/cssicon.png'
-import glitched from './Images/glitched.gif'
-import glitchedabout from './Images/newabotimg.gif'
-import phone from './Images/phone.png'
-import jsIcon from './Images/jsicon.png'
-import nextjsIcon from './Images/nextjs.png'
-import bplanCert from './Images/bpcert.jpg'
-import tailwind from './Images/tailwind.png'
-import typecsript from './Images/typescript.png'
-import bplanDoc from './Images/bplan.jpg'
-import secondprojThumbnail from './Images/2ndproj.png'
-import codefestCert from './Images/codefestCert1.png'
-import codefestDoc from './Images/codefest.jpg'
-import bplanAwarding from './Images/bplan_awarding.jpg'
-import fbIcon from './Images/facebookIcon-removebg-preview.png'
-import emailIcon from './Images/emailIcon.png'
-import IgIcon from './Images/facebookIcon-removebg-preview.png'
-import cursor from './Images/cursor.png'
-import aboutImg from './Images/aboutimg.jpeg'
-import projThumbnail from './Images/1stprogwbg.png'
 import Typewriter from 'typewriter-effect';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import nodejs from './Images/nodejs.png'
-import firebase from './Images/firebase.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebook, faInstagram, faGithub  } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
-import { faEye } from '@fortawesome/free-regular-svg-icons';
-import { faAngleRight } from '@fortawesome/free-solid-svg-icons';
-import { faHandPointRight } from '@fortawesome/free-solid-svg-icons';
-import { faMousePointer } from '@fortawesome/free-solid-svg-icons';
-import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
 import Headroom from 'react-headroom';
+
+// Images
+import headerImg from './Images/name.png';
+import htmlIcon from './Images/htmlicon.png';
+import namelogo from './Images/namelogo.png';
+import address from './Images/address.png';
+import cssIcon from './Images/cssicon.png';
+import glitched from './Images/glitched.gif';
+import glitchedabout from './Images/newabotimg.gif';
+import phone from './Images/phone.png';
+import jsIcon from './Images/jsicon.png';
+import nextjsIcon from './Images/nextjs.png';
+import bplanCert from './Images/bpcert.jpg';
+import tailwind from './Images/tailwind.png';
+import typecsript from './Images/typescript.png';
+import secondprojThumbnail from './Images/2ndproj.png';
+import codefestCert from './Images/codefestCert1.png';
+import projThumbnail from './Images/1stprogwbg.png';
+import nodejs from './Images/nodejs.png';
+import firebase from './Images/firebase.png';
+
+
+
 
 export default function Page() {
   const [navbar, setNavbar] = useState(false);
