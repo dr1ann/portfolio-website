@@ -52,7 +52,7 @@ module.exports = {
         aftermd:'824px',
         semixl: '1180px',
         homepagescreen:'2000px',
-        bigmonitor: '1920px',
+        bigmonitor: '2500px',
         skillsSec: '811px',
         aboutpic: '900px',
         cc: '1034px',

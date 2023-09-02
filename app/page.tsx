@@ -21,6 +21,7 @@ import bplanCert from './Images/bpcert.jpg'
 import tailwind from './Images/tailwind.png'
 import typecsript from './Images/typescript.png'
 import bplanDoc from './Images/bplan.jpg'
+import secondprojThumbnail from './Images/2ndproj.png'
 import codefestCert from './Images/codefestCert1.png'
 import codefestDoc from './Images/codefest.jpg'
 import bplanAwarding from './Images/bplan_awarding.jpg'
@@ -127,7 +128,7 @@ export default function Page() {
   offset={-100}
   className="cursor-pointer"
 >
-  <a>Home</a>
+  <p>Home</p>
 </ScrollLink>
                 </li>
                 <li className="text-white text-center ">
@@ -139,7 +140,7 @@ export default function Page() {
   className="cursor-pointer"
 >
   
-  <a>About</a>
+  <p>About</p>
 </ScrollLink>
 
                 </li>
@@ -152,7 +153,7 @@ export default function Page() {
   className="cursor-pointer"
 >
   
-  <a>Projects</a>
+  <p>Projects</p>
 </ScrollLink>
 
                 </li>
@@ -165,7 +166,7 @@ export default function Page() {
   className="cursor-pointer animate-wiggle"
 >
   
-  <a>Contact</a>
+  <p>Contact</p>
 </ScrollLink>
                 </li>
               </ul>
@@ -272,20 +273,20 @@ SKILLS <span className='text-gray-500'> ⸻ </span>
    <div className="bg1 relative flex flex-row items-center flex-wrap justify-center bg-gray-500 px-[8px] py-1 gap-2 rounded-xl cursor-pointer" data-aos="fade-up" 
         data-aos-duration="1000" data-title="7 months experience" >
     <Image className="img1 w-8 h-8 object-contain" src={htmlIcon} alt="HTML icon" />
-    <p className='font-bold flex items-center text-gray-200 text-center '>HTML</p>
+    <p className='font-bold flex items-center text-gray-200 text-center text-[.90rem] md:text-[1rem]'>HTML</p>
   </div>
 
 
   <div className="flex flex-row relative items-center flex-wrap justify-center  bg-gray-500 px-[8px] py-1 gap-2 rounded-xl cursor-pointer" data-aos="fade-up" 
         data-aos-duration="1000" data-title="7 months experience">
     <Image className="w-8 h-8 object-contain" src={cssIcon} alt="CSS icon" />
-    <p className='font-bold flex items-center text-gray-200 text-center'>CSS</p>
+    <p className='font-bold flex items-center text-gray-200 text-center text-[.90rem] md:text-[1rem]'>CSS</p>
   </div>
 
   <div className="flex flex-row items-center flex-wrap justify-center bg-gray-500 px-[8px] py-1 gap-2 rounded-xl cursor-pointer" data-aos="fade-up" 
         data-aos-duration="1000" data-title1="6 months experience">
     <Image className="w-8 h-8 object-contain" src={jsIcon} alt="JavaScript icon" />
-    <p className='font-bold flex items-center text-gray-200 text-center'>JavaScript</p>
+    <p className='font-bold flex items-center text-gray-200 text-center text-[.90rem] md:text-[1rem]'>JavaScript</p>
   </div>
 </div>
 
@@ -303,13 +304,13 @@ SKILLS <span className='text-gray-500'> ⸻ </span>
   <div className="flex flex-row items-center flex-wrap justify-center bg-gray-500 px-[8px] py-1 gap-2 rounded-xl cursor-pointer" data-aos="fade-up" 
         data-aos-duration="1000"  data-title1="40 days experience">
     <Image className="w-8 h-8 object-contain" src={nodejs} alt="HTML icon" />
-    <p className='font-bold flex items-center text-gray-200 text-center'>Node.js</p>
+    <p className='font-bold flex items-center text-gray-200 text-center text-[.90rem] md:text-[1rem]'>Node.js</p>
   </div>
 
   <div className="flex flex-row items-center flex-wrap justify-center bg-gray-500 px-[8px] py-1 gap-2 rounded-xl cursor-pointer" data-aos="fade-up" 
         data-aos-duration="1000"  data-title1="6 months experience">
     <Image className="w-8 h-8 object-contain" src={firebase} alt="CSS icon" />
-    <p className='font-bold flex items-center text-gray-200 text-center'>Firebase</p>
+    <p className='font-bold flex items-center text-gray-200 text-center text-[.90rem] md:text-[1rem]'>Firebase</p>
   </div>
 
 
@@ -321,16 +322,16 @@ SKILLS <span className='text-gray-500'> ⸻ </span>
         data-aos-duration="1000" >
   <div className="flex flex-row items-center flex-wrap justify-center bg-gray-500 px-[8px] py-1 gap-2 rounded-xl" >
     <Image className="w-8 h-8 object-contain" src={nextjsIcon} alt="HTML icon" />
-    <p className='font-bold flex items-center text-gray-200 text-center'>Next.js</p>
+    <p className='font-bold flex items-center text-gray-200 text-center text-[.90rem] md:text-[1rem]'>Next.js</p>
   </div>
 
   <div className="flex flex-row items-center flex-wrap justify-center bg-gray-500 px-[8px] py-1 gap-2 rounded-xl" >
     <Image className="w-8 h-8 object-contain" src={tailwind} alt="CSS icon" />
-    <p className='font-bold flex items-center text-gray-200 text-center'>Tailwind CSS</p>
+    <p className='font-bold flex items-center text-gray-200 text-center text-[.90rem] md:text-[1rem]'>Tailwind CSS</p>
   </div>
   <div className="flex flex-row items-center flex-wrap justify-center bg-gray-500 px-[8px] py-1 gap-2 rounded-xl" >
     <Image className="w-8 h-8 object-contain" src={typecsript} alt="CSS icon" />
-    <p className='font-bold flex items-center text-gray-200 text-center'>TypeScript</p>
+    <p className='font-bold flex items-center text-gray-200 text-center text-[.90rem] md:text-[1rem]'>TypeScript</p>
   </div>
 
  
@@ -339,7 +340,7 @@ SKILLS <span className='text-gray-500'> ⸻ </span>
   
 
 
-<h1 className=" flex justify-start items-center text-2xl font-bold text-white  mt-10 mb-10 animate-pulse" data-aos="fade-up" data-aos-duration="1000">
+<h1 className="text-[20px] md:text-[24px] flex justify-start items-center text-2xl font-bold text-white pl-5 mt-10 mb-10 animate-pulse" data-aos="fade-up" data-aos-duration="1000">
 ACHIEVEMENTS <span className='text-gray-500'> ⸻ </span>
 
      </h1>
@@ -401,7 +402,7 @@ ACHIEVEMENTS <span className='text-gray-500'> ⸻ </span>
 
 
 
-  {/* 2nd ACHIEVEMENT */}
+  
 
   <h1 className="text-center mt-32 mb-10 text-[1.375rem] medsmall:text-[1.5rem] cpsize:text-[2.25rem] font-bold  text-white animate-pulse" data-aos="fade-up" data-aos-duration="1000" id='projectsPage'>
 <span className='text-gray-500' > ⸻ </span>PROJECTS<span className='text-gray-500'> ⸻ </span>
@@ -454,8 +455,71 @@ ACHIEVEMENTS <span className='text-gray-500'> ⸻ </span>
     <a href="https://github.com/dr1ann/fastrack-e-commerce" target="_blank" rel="noopener noreferrer" className="icon-link"  >
        <FontAwesomeIcon icon={faGithub} className="text-black m-2 inline-block text-xl cpsize:text-2xl bigmonitor:text-[2rem] animate-custom-bounce bg-gray-500  rounded-full p-2 ml-4" />
        </a>
+       
    </div>
+   <p className='text-white text-center'> <span className='text-red-500'>*</span> PROJECT NOT MOBILE RESPONSIVE</p>
     </div>
+  
+  </div>
+  
+ 
+ 
+  
+  </div>
+
+    {/* second project */}
+  <div className='max-w-[80%] mx-auto'>
+     <div className="flex flex-col xx:flex-row-reverse items-center justify-center mt-10" data-aos="fade-up" data-aos-duration="1000">
+ 
+   
+   
+      <Image    
+        className="mb-2 md:mb-8 xx:mb-0 xx:ml-8 shadow-3xl  w-[25rem] shadow-gray-500 object-cover rounded-xl " 
+        src={secondprojThumbnail}
+      
+        alt="JS Icon"
+      />
+   
+ 
+    
+   <div className='shadow-3xl shadow-gray-500 p-5 mt-6 md:mt-0 rounded-xl'>
+      <h1 className="text-left  text-3xl cpsize:text-4xl bigmonitor:text-[2.875rem] text-gray-200 font-bold" data-aos="fade-up" data-aos-duration="1000">
+      Cinemania
+      </h1>
+      <div className=' '>
+      <p className="inline-block mr-[0.25rem] text-[0.688rem] cpsize:text-[1rem] bigmonitor:text-[1.50rem] text-white font-500 rounded-full bg-gray-500 px-2 py-[2px] mt-5">
+      Tailwind CSS
+      </p>
+      <p className="inline-block mr-[0.25rem] text-[0.688rem] cpsize:text-[1rem] bigmonitor:text-[1.50rem] text-white font-500 rounded-full bg-gray-500 px-2 py-[2px] mt-5">
+      Typescript
+      </p>
+      <p className="inline-block mr-[0.25rem] text-[0.688rem] cpsize:text-[1rem] bigmonitor:text-[1.50rem] text-white font-500 rounded-full bg-gray-500 px-2 py-[2px] mt-5">
+      
+      React
+      </p>
+      <p className="inline-block mr-[0.25rem] text-[0.688rem] cpsize:text-[1rem] bigmonitor:text-[1.50rem] text-white font-500 rounded-full bg-gray-500 px-2 py-[2px] mt-5">
+      
+      Next.js
+      </p>
+     
+      
+      </div>
+
+      <p className="text-white mt-2 text-[0.75rem] cpsize:text-[1rem] text-left md:text-left bigmonitor:text-[1.50rem]" data-aos="fade-up" data-aos-duration="1000">
+      Cinemania is an innovative and user-friendly website that harnesses the power of the TMDB (The Movie Database) API to provide users with a comprehensive and interactive platform for exploring the world of cinema and famous personalities.
+      </p>
+      <div className="flex items-center justify-start mt-4" data-aos="fade-up" data-aos-duration="1000">
+     
+     <a href="https://cinemania-hub.vercel.app/"  target="_blank" rel="noopener noreferrer" className="text-white text-[0.75rem] cpsize:text-[1rem] bigmonitor:text-[1.50rem] bg-gray-500 animate-custom-bounce  rounded-2xl px-2 py-2 font-bold" >VISIT PROJECT 
+   </a >
+    <a href="https://github.com/dr1ann/cinemania/" target="_blank" rel="noopener noreferrer" className="icon-link"  >
+       <FontAwesomeIcon icon={faGithub} className="text-black m-2 inline-block text-xl cpsize:text-2xl bigmonitor:text-[2rem] animate-custom-bounce bg-gray-500  rounded-full p-2 ml-4" />
+       </a>
+       
+   </div>
+  
+    </div>
+  
   </div>
   
  
@@ -483,7 +547,7 @@ ACHIEVEMENTS <span className='text-gray-500'> ⸻ </span>
 
      <Image
       data-aos="fade-up" data-aos-duration="1000"
-      className='hidden namelogo:block object-cover w-full'
+      className='hidden lg:block object-cover w-full'
       src={namelogo}
       alt='CONTACT icon'
 
@@ -530,7 +594,7 @@ ACHIEVEMENTS <span className='text-gray-500'> ⸻ </span>
   </div>
  
 </div>
-  <footer className='flex justify-end flex-row items-center px-6 mt-20 footer-class'>
+  <footer className='flex justify-center flex-row items-center px-6 mt-20 footer-class'>
    
   
   <div className=' flex flex-row justify-center items-center py-10'>
