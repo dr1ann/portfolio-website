@@ -435,7 +435,7 @@ ACHIEVEMENTS <span className='text-gray-500'> ⸻ </span>
       </div>
 
       <p className="text-white mt-2 text-[0.75rem] cpsize:text-[1rem] text-left md:text-left bigmonitor:text-[1.50rem]" data-aos="fade-up" data-aos-duration="1000">
-      FasTrack is a dynamic and user-friendly online e-commerce platform designed exclusively for residents of Ormoc City. Developed over a span of 7 months, this feature-rich website incorporates a robust backend powered by <b>Node.js</b> and utilizes <b>Firebase</b> for seamless database integration.
+      FasTrack is a dynamic and user-friendly online e-commerce platform designed exclusively for residents of Ormoc City. This was our research project in Senior High School.
       </p>
       <div className="flex items-center justify-start mt-4" data-aos="fade-up" data-aos-duration="1000">
      
@@ -446,7 +446,7 @@ ACHIEVEMENTS <span className='text-gray-500'> ⸻ </span>
        </a>
        
    </div>
-   <p className='text-white text-center text-[0.90rem] md:text-[1rem]'> <span className='text-red-500'>*</span> PROJECT NOT MOBILE RESPONSIVE</p>
+   <p className='text-white text-center text-[0.90rem] md:text-[1rem]'> <span className='text-red-500'>*</span> PROJECT IS NOT MOBILE RESPONSIVE</p>
     </div>
   
   </div>
