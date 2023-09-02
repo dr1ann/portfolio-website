@@ -415,7 +415,7 @@ ACHIEVEMENTS <span className='text-gray-500'> ⸻ </span>
       <h1 className="text-left  text-3xl cpsize:text-4xl bigmonitor:text-[2.875rem] text-gray-200 font-bold" data-aos="fade-up" data-aos-duration="1000">
       FasTrack
       </h1>
-      <div className=' '>
+      <>
       <p className="inline-block mr-[0.25rem] text-[0.688rem] cpsize:text-[1rem] bigmonitor:text-[1.50rem] text-white font-500 rounded-full bg-gray-500 px-2 py-[2px] mt-5">
       HTML
       </p>
@@ -432,7 +432,7 @@ ACHIEVEMENTS <span className='text-gray-500'> ⸻ </span>
       Firebase
       </p>
       
-      </div>
+      </>
 
       <p className="text-white mt-2 text-[0.75rem] cpsize:text-[1rem] text-left md:text-left bigmonitor:text-[1.50rem]" data-aos="fade-up" data-aos-duration="1000">
       FasTrack is a dynamic and user-friendly online e-commerce platform designed exclusively for residents of Ormoc City. This was our research project in Senior High School.
@@ -475,24 +475,24 @@ ACHIEVEMENTS <span className='text-gray-500'> ⸻ </span>
       <h1 className="text-left  text-3xl cpsize:text-4xl bigmonitor:text-[2.875rem] text-gray-200 font-bold" data-aos="fade-up" data-aos-duration="1000">
       Cinemania
       </h1>
-      <div className=' '>
+      <>
+      <p className="inline-block mr-[0.25rem] text-[0.688rem] cpsize:text-[1rem] bigmonitor:text-[1.50rem] text-white font-500 rounded-full bg-gray-500 px-2 py-[2px] mt-5">
+      HTML
+      </p>
       <p className="inline-block mr-[0.25rem] text-[0.688rem] cpsize:text-[1rem] bigmonitor:text-[1.50rem] text-white font-500 rounded-full bg-gray-500 px-2 py-[2px] mt-5">
       Tailwind CSS
       </p>
       <p className="inline-block mr-[0.25rem] text-[0.688rem] cpsize:text-[1rem] bigmonitor:text-[1.50rem] text-white font-500 rounded-full bg-gray-500 px-2 py-[2px] mt-5">
       Typescript
       </p>
-      <p className="inline-block mr-[0.25rem] text-[0.688rem] cpsize:text-[1rem] bigmonitor:text-[1.50rem] text-white font-500 rounded-full bg-gray-500 px-2 py-[2px] mt-5">
-      
-      React
-      </p>
+    
       <p className="inline-block mr-[0.25rem] text-[0.688rem] cpsize:text-[1rem] bigmonitor:text-[1.50rem] text-white font-500 rounded-full bg-gray-500 px-2 py-[2px] mt-5">
       
       Next.js
       </p>
      
       
-      </div>
+      </>
 
       <p className="text-white mt-2 text-[0.75rem] cpsize:text-[1rem] text-left md:text-left bigmonitor:text-[1.50rem]" data-aos="fade-up" data-aos-duration="1000">
       Cinemania is an innovative and user-friendly website that harnesses the power of the TMDB (The Movie Database) API to provide users with a comprehensive and interactive platform for exploring the world of cinema and famous personalities.
