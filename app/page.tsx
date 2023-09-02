@@ -199,12 +199,12 @@ export default function Page() {
       onInit={(typewriter) => {
         typewriter
           .callFunction(() => {
-            console.log('String typed out!');
+           
           })
           .pauseFor(2500)
           .deleteAll()
           .callFunction(() => {
-            console.log('All strings were deleted');
+            
           })
           .start();
       }}
@@ -457,7 +457,7 @@ ACHIEVEMENTS <span className='text-gray-500'> ⸻ </span>
        </a>
        
    </div>
-   <p className='text-white text-center'> <span className='text-red-500'>*</span> PROJECT NOT MOBILE RESPONSIVE</p>
+   <p className='text-white text-center text-[0.90rem] md:text-[1rem]'> <span className='text-red-500'>*</span> PROJECT NOT MOBILE RESPONSIVE</p>
     </div>
   
   </div>
@@ -594,7 +594,7 @@ ACHIEVEMENTS <span className='text-gray-500'> ⸻ </span>
   </div>
  
 </div>
-  <footer className='flex justify-center flex-row items-center px-6 mt-20 footer-class'>
+  <footer className='flex justify-end md:justify-center flex-row items-center px-6 mt-20 footer-class'>
    
   
   <div className=' flex flex-row justify-center items-center py-10'>
